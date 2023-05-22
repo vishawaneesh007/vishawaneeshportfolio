@@ -30,7 +30,7 @@
                 <img src="assets/image/down-arrow.png" class="img-fluid"  alt="image">
             </div>
         </div>
-        <header class="header">
+        <header class="header" id="myHeader">
             <div class="container">
                 <nav class="navbar navbar-expand-lg bg-body-tertiary">
                     <div class="container-fluid">
@@ -249,7 +249,16 @@
 
         <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
         <script>
-            
+            window.onscroll = function() {myFunction()};
+                var header = document.getElementById("myHeader");
+                var sticky = header.offsetTop;
+                function myFunction() {
+                  if (window.pageYOffset > sticky) {
+                    header.classList.add("sticky");
+                  } else {
+                    header.classList.remove("sticky");
+                  }
+              }
 
         </script>
     </body>
