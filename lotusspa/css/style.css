@@ -1,0 +1,340 @@
+body {
+  font-family: "Brygada 1918", serif;
+}
+
+p {
+  font-family: "Inter", sans-serif;
+  letter-spacing: 1px;
+}
+
+.section__banner {
+  background-color: #cca690;
+}
+.section__banner .nav-item {
+  margin: 0 15px;
+}
+.section__banner .nav-item .nav-link {
+  color: white;
+  text-transform: uppercase;
+  font-family: "Inter", sans-serif;
+}
+.section__banner .nav-item .nav-link i {
+  font-size: 20px;
+}
+.section__banner .book__btn {
+  border: 1px solid white;
+  border-radius: 0px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.section__banner .book__btn:hover {
+  border: 1px solid white;
+  color: rgb(0, 0, 0);
+  background-color: #fff;
+}
+.section__banner .book__btn__banner {
+  border: 1px solid white;
+  background-color: #fff;
+  border-radius: 0px;
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.section__banner .book__btn__banner:hover {
+  border: 1px solid white;
+  background-color: transparent;
+  border-radius: 0px;
+  color: rgb(255, 255, 255);
+}
+
+.banner__text {
+  color: white;
+}
+.banner__text h1 {
+  font-size: 15px;
+  font-weight: 900;
+  letter-spacing: 3px;
+}
+.banner__text h2 {
+  font-size: 95px;
+  font-weight: 500;
+  padding: 30px 0px;
+}
+.banner__text p {
+  font-size: 24px;
+  font-family: "Inter", sans-serif;
+  padding: 30px 0px;
+}
+
+.web__body {
+  padding-top: 40px;
+  color: #205b4f;
+}
+.web__body .web__body__h2 {
+  font-size: 15px;
+  letter-spacing: 3px;
+}
+.web__body .web__body__h3 {
+  font-size: 50px;
+  max-width: 750px;
+  margin: 40px auto;
+}
+
+.body__box {
+  color: #53a292;
+}
+.body__box .bosy__box__span {
+  font-size: 40px;
+}
+.body__box p {
+  color: gray;
+}
+
+.service__div h4 {
+  font-size: 51px;
+  line-height: 47px;
+  font-weight: 500;
+  color: #205b4f;
+}
+.service__div p {
+  padding: 25px 0;
+  font-size: 17px;
+  color: gray;
+}
+
+.service__btn {
+  background-color: #205b4f;
+  color: white;
+  padding: 10px 35px;
+  border: 1px solid #205b4f;
+  border-radius: 0;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+}
+
+.service__btn:hover {
+  background-color: white;
+  color: #205b4f;
+}
+
+.service__img img {
+  border-radius: 20px;
+}
+
+.div__container .border-top {
+  padding: 10px 0;
+}
+.div__container .border-top span {
+  font-size: 15px;
+  color: #205b4f;
+}
+.div__container .border-top h5 {
+  font-size: 25px;
+  padding: 30px 0;
+  color: #205b4f;
+}
+.div__container .border-top p {
+  font-size: 16px;
+  color: #7f7c76;
+}
+
+.div__relative {
+  position: relative;
+}
+
+.div__absolute {
+  position: absolute;
+}
+
+.appointment__div {
+  color: #205b4f;
+}
+.appointment__div h2 {
+  font-size: 14px;
+}
+.appointment__div h5 {
+  font-size: 62px;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 30px 0px;
+}
+.appointment__div p {
+  padding: 20px 0;
+  color: gray;
+}
+
+.massage__image .massage__div h2 {
+  font-size: 14px;
+  letter-spacing: 3px;
+}
+.massage__image .massage__div h5 {
+  font-size: 50px;
+  padding: 30px 0;
+}
+.massage__image .massage__div p {
+  padding-bottom: 55px;
+  max-width: 624px;
+  margin: 0 auto;
+  line-height: 29px;
+  letter-spacing: 2px;
+}
+.massage__image .my__card {
+  padding: 40px;
+}
+.massage__image .my__card span {
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+.massage__image .my__card h3 {
+  font-size: 34px;
+  margin-top: 30px;
+  margin-bottom: 25px;
+}
+.massage__image .my__card p {
+  letter-spacing: 2px;
+}
+.massage__image .my__card h6 {
+  padding: 15px 0;
+  font-size: 20px;
+}
+.massage__image .my__card a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+}
+
+.review__section {
+  background-color: #d9e8e5;
+  padding: 100px 0;
+  color: #205b4f;
+}
+.review__section .review__section__div {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.review__section .review__section__div span {
+  font-size: 50px;
+}
+.review__section .review__section__div p {
+  font-size: 22px;
+  letter-spacing: 2px;
+  line-height: 39px;
+  padding: 15px 0;
+}
+
+.appointment__div1 h2 {
+  font-size: 14px;
+  letter-spacing: 2px;
+  color: gray;
+}
+.appointment__div1 h3 {
+  font-size: 45px;
+  padding: 10px 0;
+}
+.appointment__div1 p {
+  color: gray;
+}
+.appointment__div1 .appointment__div__card {
+  position: relative;
+  padding-left: 35px;
+}
+.appointment__div1 .appointment__div__card i {
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 20px;
+  color: #205b4f;
+}
+.appointment__div1 .appointment__div__card h2 {
+  font-size: 14px;
+  margin-top: 30px;
+  color: black;
+}
+
+.appointment__form .form__mandatory__div {
+  padding: 20px 0;
+}
+.appointment__form .form__mandatory__div span {
+  color: red;
+  padding-left: 3px;
+}
+.appointment__form .form__mandatory__div .form-control {
+  background-color: #fafafa;
+  padding: 12px 12px;
+  border-radius: 3px;
+}
+.appointment__form .service__btn {
+  margin-top: 20px;
+  padding: 16px 55px;
+}
+
+.footer {
+  background-color: #205b4f;
+  color: white;
+}
+.footer .containera-div {
+  padding: 120px 0;
+}
+.footer img {
+  margin-bottom: 30px;
+}
+.footer ul {
+  list-style: none;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+}
+.footer ul li {
+  padding: 5px 0;
+}
+.footer ul li a {
+  text-decoration: none;
+  color: white;
+}
+.footer .text-end a {
+  padding: 0px 20px;
+  color: white;
+}
+
+/*for mobile and fablets*/
+@media (max-width: 767px) {
+  .section__banner {
+    background-color: #e0b9a4;
+    background-image: none;
+  }
+  .banner__text h2 {
+    font-size: 45px;
+    padding: 10px 0;
+  }
+  .banner__text p {
+    font-size: 16px;
+    padding: 5px 0;
+  }
+  .footer .containera-div {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .footer .border-top p[class=m-0] {
+    text-align: center;
+    margin-bottom: 20px !important;
+  }
+  .footer .border-top .text-end {
+    text-align: center !important;
+  }
+  .section__banner{
+    background-position: center bottom !important;
+    background-color: #cba58f;
+  }
+}
+/*for tablet*/
+@media (min-width: 768px) and (max-width: 768px) {
+  .appointment__form .service__btn {
+    margin: initial;
+    width: 100%;
+    padding: 9px 20px;
+  }
+}
+/*for above mobile and tablet styling*//*# sourceMappingURL=style.css.map */
