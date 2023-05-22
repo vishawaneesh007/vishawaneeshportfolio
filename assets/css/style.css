@@ -2,7 +2,7 @@
 body{
     font-family: 'Inter', sans-serif;
 }
-.awa_background{
+/* .awa_background{
     background: url("assets/image/banner.jpg");
     height: 550px;
     background-position: center;
@@ -14,7 +14,7 @@ body{
     align-items: center;
     justify-content: center;
     
-}
+} */
 .awa_about_me{
     color: white;
     text-align: center;
