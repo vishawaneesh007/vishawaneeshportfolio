@@ -8,7 +8,7 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    /* background-color: #2397f3; */
+    background-color: #2397f3;
     background-blend-mode: multiply;
     display: flex;
     align-items: center;
