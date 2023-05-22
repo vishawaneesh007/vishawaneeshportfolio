@@ -1,0 +1,475 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+body {
+  font-family: "Inter", sans-serif;
+  font-family: "Poppins", sans-serif;
+  color: #441f0d;
+}
+
+.container {
+  max-width: 1280px;
+}
+
+.header {
+  background-color: #fdc443;
+}
+
+.awa_logo {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 34px;
+}
+
+.awa_delivery .para1 {
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.awa_delivery .para2 {
+  font-size: 22px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.awa_express_img {
+  top: 0;
+}
+
+.header .nav-link {
+  text-transform: uppercase;
+  font-size: 15px;
+  color: black;
+  font-weight: 600;
+  letter-spacing: 2px;
+  padding: 0px 23px;
+}
+.header .awa_link {
+  text-transform: capitalize;
+  font-size: 13px;
+  letter-spacing: 0;
+  font-weight: bold;
+}
+.header .awa_link img {
+  width: 40px;
+}
+
+.banner {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.banner .awa_hungry {
+  font-size: 30px;
+  font-style: italic;
+  text-transform: capitalize;
+}
+.banner .awa_wait {
+  font-family: "Russo One", sans-serif;
+  text-transform: uppercase;
+  font-size: 135px;
+  font-weight: 600;
+  line-height: 100px;
+  margin-bottom: 19px;
+  margin-top: 30px;
+  text-shadow: 3px 3px 3px #ffffff;
+}
+.banner .awa_order {
+  display: inline-block;
+  font-size: 18px;
+  text-transform: uppercase;
+  border-bottom: 1px solid rgb(83, 82, 82);
+  margin-bottom: 13px;
+  font-weight: 600;
+  border: 2px dashed;
+  padding: 10px;
+}
+.banner .awa_wait1 {
+  font-size: 50px;
+  line-height: 50px;
+}
+.banner .awa_btn {
+  border: 1px solid black;
+  border-radius: 0;
+  padding: 8px 23px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.banner .awa_happy_hours {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.banner .awa_offer {
+  font-size: 44px;
+  line-height: 44px;
+}
+.banner .awa_offer_para {
+  font-size: 15px;
+  text-transform: uppercase;
+}
+.banner .awa_img {
+  width: 450px;
+}
+
+.awa_side_banner {
+  position: relative;
+  text-align: center;
+}
+
+.awa_price {
+  position: absolute;
+  background-color: #dd1b1c;
+  color: white;
+  width: 160px;
+  height: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  bottom: 35px;
+  left: 25px;
+}
+.awa_price .awa_price1 {
+  border: 2px dashed white;
+  padding: 20px;
+  border-radius: 50%;
+  width: 140px;
+  height: 140px;
+}
+.awa_price .awa_rate {
+  font-size: 30px;
+}
+.awa_price .awa_only {
+  font-size: 30px;
+  text-transform: uppercase;
+  font-family: "Russo One", sans-serif;
+}
+
+.awa_enjoy {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.awa_enjoy_heading {
+  max-width: 950px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.awa_enjoy_heading h2 {
+  font-size: 45px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: "Russo One", sans-serif;
+}
+.awa_enjoy_heading p {
+  font-size: 15px;
+  margin-top: 20px;
+}
+.awa_enjoy_heading h6 {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0;
+  background: #fdc443;
+  display: inline-block;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+}
+
+.awa_upcoming_event {
+  box-shadow: 8px 8px 10px rgba(195, 194, 194, 0.7490196078);
+  padding: 30px;
+}
+.awa_upcoming_event .carousel-indicators {
+  justify-content: start;
+  margin-left: 0;
+}
+.awa_upcoming_event .carousel-dark .carousel-indicators [data-bs-target] {
+  background-color: #fdc443;
+}
+
+.awa_upcoming_text {
+  padding: 20px;
+}
+.awa_upcoming_text h5 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.awa_upcoming_text h4 {
+  font-family: "Russo One", sans-serif;
+  font-size: 45px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.awa_card {
+  padding: 30px;
+}
+.awa_card img {
+  width: 280px;
+}
+.awa_card h5 {
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+.awa_card p {
+  font-size: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.awa_card .awa_order_btn {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
+  background-color: #fee100;
+  padding: 12px 26px;
+  letter-spacing: 1px;
+  border-radius: 0;
+}
+
+.awa_card_container {
+  position: relative;
+}
+.awa_card_container .awa_card_background {
+  position: absolute;
+  width: 100%;
+  height: 150px;
+  background-color: #c2c08d;
+  z-index: -1;
+  top: 125px;
+}
+
+.awa_event {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.awa_tryit {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.awa_tryit_card {
+  position: relative;
+}
+.awa_tryit_card h4 {
+  position: absolute;
+  top: 55px;
+  left: 55px;
+  color: white;
+  text-transform: uppercase;
+  width: 200px;
+}
+.awa_tryit_card h4 span {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.awa_tryit_card1 {
+  position: relative;
+}
+.awa_tryit_card1 h4 {
+  position: absolute;
+  top: 55px;
+  left: 55px;
+  color: white;
+  text-transform: uppercase;
+  width: 200px;
+}
+.awa_tryit_card1 h4 span {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.awa_form {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.awa_form .awa_form_control {
+  padding: 10px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+.awa_form .awa_form_btn {
+  background-color: #fee100;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.footer {
+  background-image: url("image/footer_image.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: white;
+  padding: 50px;
+}
+.footer a {
+  text-decoration: none;
+  color: white;
+}
+
+.awa_unstyled {
+  list-style: none;
+}
+.awa_unstyled li {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.footer_list {
+  list-style: none;
+  display: flex;
+  justify-content: end;
+}
+.footer_list li {
+  background-color: white;
+  margin-left: 5px;
+  margin-right: 5px;
+  border-radius: 50%;
+}
+
+.footer_logo {
+  color: #fee100 !important;
+  text-transform: uppercase;
+}
+
+.awa_event_banner {
+  background-image: url("images/foodevent.webp");
+  background-color: rgba(0, 0, 0, 0.68);
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.awa_event_banner .carousel {
+  transform: scale(1.1);
+}
+.awa_event_banner .carousel-item {
+  border-radius: 10px;
+}
+.awa_event_banner .carousel-item img {
+  border-radius: 10px;
+}
+
+.awa_desktop_display_block {
+  display: none;
+}
+
+.carousel-indicators [data-bs-target] {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+
+.awa_event_banner .carousel-indicators {
+  bottom: -50px;
+}
+
+.awa_event_banner .carousel-indicators [data-bs-target] {
+  background-color: #fee100;
+}
+
+/*for mobile */
+@media (max-width: 767px) {
+  .awa_card_container .awa_card_background {
+    height: 180px;
+    top: 117px;
+  }
+  .awa_event_banner .carousel {
+    transform: scale(1);
+  }
+  .awa_upcoming_event {
+    padding-bottom: 50px;
+  }
+  .awa_upcoming_event .carousel-indicators {
+    bottom: -53px;
+  }
+  .awa_event {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .awa_tryit_card h4 {
+    top: 22px;
+    left: 22px;
+  }
+  .awa_tryit_card1 h4 {
+    top: 22px;
+    left: 22px;
+  }
+}
+/*for mobile and tablet */
+@media (max-width: 768px) {
+  .awa_card_display_none {
+    display: none;
+  }
+  .banner .awa_hungry {
+    font-size: 25px;
+  }
+  .banner .awa_wait {
+    font-size: 60px;
+    line-height: 60px;
+    margin-bottom: 8px;
+  }
+  .banner .awa_order {
+    margin-bottom: 4px;
+  }
+  .header .nav-link {
+    padding: 12px;
+  }
+  .awa_enjoy_heading h2 {
+    font-size: 30px;
+  }
+  .awa_enjoy_heading p {
+    font-size: 13px;
+    margin-top: 10px;
+  }
+  .awa_tryit .col-sm-6 {
+    margin-bottom: 20px;
+  }
+  .awa_unstyled {
+    padding-left: 0;
+  }
+  .footer .col-sm-7 p {
+    margin-top: 20px !important;
+  }
+  .footer .text-start {
+    text-align: center !important;
+  }
+  .footer_list {
+    padding-left: 0;
+    justify-content: space-around;
+    margin-top: 30px;
+  }
+  .carousel-indicators {
+    bottom: -35px;
+  }
+  .carousel-indicators [data-bs-target] {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+  }
+  .carousel-dark .carousel-indicators [data-bs-target] {
+    background-color: #fee100;
+  }
+  .awa_event_banner .carousel-indicators {
+    bottom: -50px;
+  }
+  .awa_event_banner .carousel-indicators [data-bs-target] {
+    background-color: #fee100;
+  }
+  .banner .awa_wait1 {
+    font-size: 35px;
+    line-height: 35px;
+  }
+}
+/*for tablet*/
+@media (min-width: 768px) and (max-width: 768px) {
+  .awa_price {
+    bottom: -9px;
+    left: 0px;
+  }
+}/*# sourceMappingURL=style.css.map */
