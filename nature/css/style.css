@@ -1,0 +1,440 @@
+body {
+  font-family: "DM Sans", sans-serif;
+}
+
+::-moz-selection {
+  background: #ffd936;
+  color: #536942;
+}
+
+::selection {
+  background: #ffd936;
+  color: #536942;
+}
+
+.nature__bg__image .container {
+  max-width: 1240px;
+}
+.nature__bg__image .navbar-brand img.img-fluid {
+  width: 60px;
+}
+.nature__bg__image .nav-item {
+  padding: 10px 12px;
+}
+.nature__bg__image .nav-item .nav-link {
+  color: white;
+}
+.nature__bg__image .nav-item .toll {
+  border: 1px solid white;
+  color: white;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 5px;
+}
+.nature__bg__image .nature__contnet__center {
+  padding: 123px 0px;
+  color: white;
+}
+.nature__bg__image .nature__contnet__center .text-center h1 {
+  font-size: 55px;
+  line-height: 63px;
+}
+.nature__bg__image .nature__contnet__center .text-center h1 span {
+  font-size: 118px;
+  font-weight: 500;
+}
+.nature__bg__image .nature__contnet__center .text-center p {
+  max-width: 320px;
+  margin: 0 auto;
+  font-size: 15px;
+  padding: 20px 0px;
+}
+.nature__bg__image .nature__contnet__center .btn__nature {
+  background-color: #ffd936;
+  color: #536942;
+  padding: 12px 36px;
+  border: 1px solid #ffd936;
+  margin-top: 10px;
+}
+.nature__bg__image .nature__contnet__center .btn__nature:hover {
+  background-color: #dab200;
+  border: 1px solid #dab200;
+}
+
+.naature__services {
+  color: #536942;
+  padding: 70px 0px;
+}
+
+.naature__services__heading {
+  font-size: 42px;
+  text-transform: capitalize;
+}
+
+.naature__services__span {
+  width: 112px;
+  background-color: #ffd936;
+  height: 3px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 32px;
+  margin-bottom: 55px;
+}
+
+.sectoin__review {
+  background-color: #f6f8f5;
+  padding: 80px 0px;
+}
+.sectoin__review .quote {
+  opacity: 0.3;
+  height: 37px;
+  width: 37px;
+}
+.sectoin__review h2 {
+  max-width: 680px;
+  margin: 30px auto;
+  font-size: 28px;
+  color: #536942;
+}
+.sectoin__review .img__avatar {
+  width: 50px;
+  height: 50px;
+}
+.sectoin__review span {
+  color: rgba(82, 104, 64, 0.5019607843);
+  font-size: 14px;
+}
+
+.about__section {
+  padding: 60px 0px;
+}
+.about__section .about__section__div {
+  max-width: 400px;
+}
+.about__section .about__section__div h2 {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: rgba(82, 104, 64, 0.5019607843);
+  margin-bottom: 20px;
+}
+.about__section .about__section__div h3 {
+  font-size: 32px;
+  line-height: 32px;
+  font-family: "Forum", display;
+}
+.about__section .about__section__div p {
+  font-size: 14px;
+  padding: 20px 0px;
+}
+.about__section .about__section__div .about__btn {
+  border: 1px solid #536942;
+  border-radius: 4px;
+  padding: 11px 30px;
+  text-transform: capitalize;
+  color: #536942;
+}
+.about__section .about__section__div .about__btn:hover {
+  border: 1px solid #9fce00;
+  color: #9fce00;
+}
+
+.content__center__left {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.content__center__right {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.content__center__center {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content__center__end {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+.question__section {
+  padding: 90px 0px;
+  color: #536942;
+}
+.question__section h2 {
+  font-size: 50px;
+}
+.question__section p {
+  max-width: 395px;
+  margin: 35px auto;
+  font-size: 16px;
+}
+.question__section .btn__question {
+  border: 1px solid #ffd936;
+  background-color: #ffd936;
+  color: #536942;
+  padding: 10px 30px;
+  text-transform: capitalize;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+.question__section .btn__question:hover {
+  border: 1px solid #dab200;
+  background-color: #dab200;
+}
+
+.footer {
+  padding: 30px 0px;
+}
+.footer .footer__img {
+  width: 60px;
+  height: 60px;
+}
+.footer .footer__menu {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer .footer__menu li a {
+  text-decoration: none;
+  padding: 7px 15px;
+  color: #536941;
+}
+.footer .content__center__right span {
+  margin-right: 15px;
+}
+
+.about__sectionhtml {
+  padding: 60px 0;
+}
+.about__sectionhtml .container {
+  max-width: 1000px;
+  color: #536941;
+}
+.about__sectionhtml .container h2 {
+  font-family: "Forum", display;
+  max-width: 600px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 60px;
+}
+.about__sectionhtml .about__section__card {
+  padding-top: 70px;
+}
+.about__sectionhtml .about__section__card h3 {
+  font-size: 22px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+.about__sectionhtml .about__section__card p {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.services__section .container {
+  max-width: 1000px;
+}
+.services__section .services__section__div {
+  color: #536941;
+}
+.services__section .services__section__div .services__card__section h2 {
+  font-family: "Forum", display;
+}
+.services__section .services__section__div .services__card__section p {
+  font-size: 15px;
+}
+.services__section .services__section__div .services__card__section .service__price {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.services__section .services__section__div .services__card__section .service__price span {
+  font-size: 25px;
+}
+.services__section .services__section__div .services__card__section .btn__service {
+  border: 1px solid #536941;
+  color: #536941;
+  padding: 10px 30px;
+  text-transform: capitalize;
+  font-size: 14px;
+}
+.services__section .services__section__div .services__card__section .btn__service:hover {
+  border: 1px solid #96df5b;
+  color: #96df5b;
+}
+
+.section__love__nature {
+  background-color: #f6f8f5;
+  padding: 70px 0px;
+  color: #536941;
+}
+.section__love__nature .love__nature__div h2 {
+  font-family: "Forum", display;
+  margin-bottom: 40px;
+}
+.section__love__nature .love__nature__div p {
+  font-size: 18px;
+}
+
+.love__nature__image {
+  width: 100%;
+}
+.love__nature__image img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+.love__nature__image h6 {
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.social__media ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+}
+.social__media ul li {
+  margin-right: 20px;
+}
+.social__media ul li img {
+  width: 40px;
+  height: 40px;
+  background-color: #c0c8b9;
+  padding: 7px;
+  border-radius: 50%;
+}
+.social__media ul li img:hover {
+  background-color: #536941;
+}
+
+.contact__us__section h3 {
+  font-family: "Forum", display;
+  font-size: 35px;
+}
+.contact__us__section .contact__us__type {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.contact__us__section .contact__us__type span {
+  color: darkgray;
+  font-size: 14px;
+}
+.contact__us__section .contact__us__type p {
+  color: rgb(119, 115, 115);
+  font-size: 18px;
+}
+
+.contact__us__section .my__form {
+  margin-top: 30px;
+}
+.contact__us__section .my__form .form-control {
+  border: none;
+  border-bottom: 1px solid #f0f0f0;
+  border-radius: 0px;
+  outline: none;
+  font-size: 18px;
+  padding: 10px 15px;
+}
+.contact__us__section .my__form .form-control:focus {
+  border-bottom: 1px solid #ffd936;
+  box-shadow: none;
+}
+.contact__us__section .my__form .form-control:focus::-webkit-input-placeholder {
+  color: #212529;
+}
+.contact__us__section .my__form textarea.form-control {
+  height: 136px;
+  resize: none;
+}
+
+.btn-submit {
+  color: #536941;
+  background-color: #ffd936;
+  padding: 10px 30px;
+  text-transform: capitalize;
+  border: 1px solid #ffd936;
+}
+
+.btn-submit:hover {
+  background-color: #dab200;
+  border: 1px solid #dab200;
+}
+
+.contact__section {
+  padding: 70px 0px;
+}
+
+.love__nature__heading {
+  max-width: 440px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+.love__nature__heading h2 {
+  font-family: "Forum", display;
+}
+
+.love__nature {
+  background-color: #f6f8f5;
+  padding: 90px 0px;
+}
+
+/*for mobile and tablet having same style*/
+@media (max-width: 768px) {
+  .about__section__div {
+    margin-bottom: 30px;
+  }
+  .question__section {
+    background-position: left !important;
+  }
+  .content__center__right {
+    justify-content: center;
+  }
+  .footer .col-sm-5, .footer .col-sm-2 {
+    margin: 10px 0px;
+  }
+  .about__background__image {
+    background-position: bottom;
+  }
+  .about__sectionhtml .container h2 {
+    font-weight: 600;
+  }
+  .service__background__image {
+    background-position: right;
+  }
+  .services__card__section {
+    margin-left: 10px !important;
+    margin-top: 10px;
+  }
+  .social__media {
+    margin-bottom: 20px;
+  }
+  .love__nature .row .col-sm-3 {
+    padding: 10px;
+  }
+}
+/*for tablet*/
+@media (min-width: 768px) and (max-width: 768px) {
+  .nature__bg__image .nav-item {
+    display: inline-flex;
+  }
+  .footer .footer__menu li a {
+    padding: 7px;
+  }
+}/*# sourceMappingURL=style.css.map */
