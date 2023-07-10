@@ -27,6 +27,33 @@
                 z-index: 999;
                 background-color: white;
              }
+            .my_contact{
+            padding: 40px;
+        }
+        .my_form{
+            font-size: 16px;
+            letter-spacing: .8px;
+            padding: 12px 25px;
+            background: #5fadeb;
+            border-radius: 0px;
+            border: none;
+            border-bottom: 2px solid #ffffff;
+            color: #ffffff;
+            border-radius: 10px;
+        }
+        .my_form:focus{
+            font-size: 16px;
+            letter-spacing: .8px;
+            padding: 12px 25px;
+            background: #5fadeb;
+            border: none;
+            border-bottom: 2px solid #ffffff;
+            color: #ffffff;
+            
+        }
+        .my_form::placeholder{
+            color: #ffffff;
+        }
         </style>
     </head>
     <body>
@@ -297,6 +324,40 @@
                 </div>
             </div>
         </div>
+        <div class="container my-5">
+        <div class="row">
+            <div class="col-sm-9">
+                <h4 class="text-center"> Contact Me</h4>
+                <div class="my_contact">
+                    <form  onsubmit="emailSubmit(); reset(); return false;">
+                        <div class="row">
+                            <div class="col-sm-6 my-3">
+                                <input type="text" class="form-control my_form" id="name" placeholder="Please Enter Name" required>
+                            </div>
+                            <div class="col-sm-6 my-3">
+                                <input type="text" class="form-control my_form" id="company"  placeholder="Please Enter Company Name" required>
+                            </div>
+                            <div class="col-sm-6 my-3">
+                                <input type="email" class="form-control my_form" id="email"  placeholder="Please Enter Email" required>
+                            </div>
+                            <div class="col-sm-6 my-3">
+                                <input type="number" class="form-control my_form"   id="phone"  maxlength="10" placeholder="Please Enter Mobile Number" required>
+                            </div>
+                            <div class="col-sm-12 my-3">
+                                <input type="text" class="form-control my_form" id="subject"  placeholder="Subject" required>
+                            </div>
+                            <div class="col-sm-12 my-3">
+                                <textarea  class="form-control my_form" id="message"  placeholder="Message" cols="30" rows="5" required></textarea>
+                            </div>
+                            <div class="col-sm-12 my-3">
+                                <button type="submit" class="btn my-btn">Send</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
         <div class="container py-5" id="contact">
             <div class="text-center mb-5">
                 <h2 class="awa_heading">Contact</h2>
@@ -324,6 +385,42 @@
 
 
         <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+
+        function emailSubmit(){
+            var name = document.getElementById("name").value;
+
+            var company = document.getElementById("company").value;
+
+            var email = document.getElementById("email").value;
+
+            var phone = document.getElementById("phone").value;
+
+            var subject = document.getElementById("subject").value;
+
+            var message = document.getElementById("message").value;
+
+            var body = "Name : " + name + "<br/>" + "Company : " + company + "<br/>" + "Email : " + email + "<br/>" + "Contact Number : " + phone + "<br/>" + "Subject : " + subject + "<br/>" + "Message : " + message ;
+
+            Email.send({
+                SecureToken : "538f8558-6e45-443b-bf7e-2f3cfbcd7e6d",
+                To : 'iamawaneesh@gmail.com',
+                From : "iamawaneesh007@gmail.com",
+                Subject : "contact enquiry form ",
+                Body :  body,
+            }).then(
+                message => {
+                    if(message =="OK"){
+                        document.location.href="/thankyou.html";
+                    }else{
+                        
+                    }
+                }
+                );
+        }
+
+    </script>
         <script>
             window.onscroll = function() {myFunction()};
                 var header = document.getElementById("myHeader");
