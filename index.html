@@ -410,7 +410,7 @@
                                 <input type="email" class="form-control my_form" id="email"  placeholder="Please Enter Email" required>
                             </div>
                             <div class="col-sm-6 my-3">
-                                <input type="tel" class="form-control my_form"   id="phone"  pattern="[6-9]{1}[0-9]{9}"  oninvalid="this.setCustomValidity('Enter Your Correct Mobile Number')" oninput="this.setCustomValidity('')" placeholder="Please Enter Mobile Number" required>
+                                <input type="tel" class="form-control my_form"   id="phone" max-length="10" min-length="10"  pattern="[6-9]{1}[0-9]{9}"  oninvalid="this.setCustomValidity('Enter Your Correct Mobile Number')" oninput="this.setCustomValidity('')" placeholder="Please Enter Mobile Number" required>
                             </div>
                             <div class="col-sm-12 my-3">
                                 <input type="text" class="form-control my_form" id="subject"  placeholder="Subject" required>
