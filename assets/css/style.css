@@ -156,9 +156,7 @@ a:hover{
     border-radius: 3px;
     
 }
-.sticky + body {
-  padding-top: 82px;
-}
+
 .awa_skills_item_bar5::before{
     content: "";
     height: 4px;
