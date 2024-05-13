@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vscrapkart - Recycling Made Easy</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"
+    integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"
+    integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+  <header class="header">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img src="assets/image/logo/logo.svg" class="img-fluid" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link " href="index.html">Home</a>
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="#whyus">Why Us?</a>
+            </li> -->
+            <li class="nav-item">
+              <a class="nav-link" href="scrap-rates.html">Scrap Rates</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <div class="container py-5">
+    <h2 class="scrap_rates_heading">schedule pickup</h2>
+    <div class="row pt-4 justify-content-center">
+      <div class="col-lg-8 col-md-10">
+        <form action="https://formspree.io/f/xrgwkpny" method="post" class="scrap_form">
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="mb-3">
+                <label class="form-label">Enter Name</label>
+                <input type="text" name="name" class="form-control" required>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="mb-3">
+                <label class="form-label">Enter Email</label>
+                <input type="email" name="email" class="form-control" required>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="mb-3">
+                <label class="form-label">Enter Mobile Number</label>
+                <input type="number" name="number" class="form-control" required>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="mb-3">
+                <label class="form-label">Enter Date</label>
+                <input type="date" name="date" class="form-control" required>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="mb-3">
+                <label class="form-label">Enter Time</label>
+                <input type="time" name="time" class="form-control" required>
+              </div>
+            </div>
+            <div class="col-sm-12">
+              <div class="mb-3">
+                <label class="form-label">Enter Your PickUp Address</label>
+                <input type="text" name="address" class="form-control" required>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="mb-3">
+                <label class="form-label">Enter Your PickUp City</label>
+                <input type="text" name="city" class="form-control" required>
+              </div>
+            </div>
+
+            <div class="col-sm-6">
+              <div class="mb-3">
+                <label class="form-label">Enter Your Pin Code</label>
+                <input type="number" name="pincode" class="form-control" required>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="mb-3">
+                <label class="form-label">Enter Your Landmark</label>
+                <input type="text" name="landmark" class="form-control" required>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="mb-3">
+            <label class="form-label">Enter Your PickUp Address</label>
+            <input type="text" name="address" class="form-control" required>
+          </div> -->
+          <div class="mb-3">
+            <label class="form-label">Estimated Weight</label>
+            <select class="form-control" name="weight" required>
+              <option value="" selected>Select Weight</option>
+              <option value="Less than 20kg">Less than 20kg</option>
+              <option value="20-50kg">20-50kg</option>
+              <option value="50-100kg">50-100kg</option>
+              <option value="100-700kg">100-700kg</option>
+              <option value="More than 700kg">More than 700kg</option>
+            </select>
+            <!-- <input type="email" > -->
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Remarks <span>(Optional)</span></label>
+            <input type="text" class="form-control">
+          </div>
+          <div class="mb-3 text-center">
+            <button class="btn scrap_btn">schedule a pickup </button>
+          </div>
+        </form>
+
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+  <footer class="footer">
+    <div class="container">
+      <div class="row justify-content-between">
+        <div class="col-sm-4 mt-2 mb-3">
+          <div class="footer_contact">
+            <h4>Contact Us</h4>
+            <p><a href="tel:6378014361"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"
+                  fill="#ffffff">
+                  <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                  <path
+                    d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z" />
+                </svg> +91 6378014361</a></p>
+            <p><a href="mailto:Beeling8485@gmail.com">
+                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512" fill="#ffffff">
+                  <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                  <path
+                    d="M64 112c-8.8 0-16 7.2-16 16v22.1L220.5 291.7c20.7 17 50.4 17 71.1 0L464 150.1V128c0-8.8-7.2-16-16-16H64zM48 212.2V384c0 8.8 7.2 16 16 16H448c8.8 0 16-7.2 16-16V212.2L322 328.8c-38.4 31.5-93.7 31.5-132 0L48 212.2zM0 128C0 92.7 28.7 64 64 64H448c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128z" />
+                </svg> Beeling8485@gmail.com
+              </a></p>
+            <h3>Customer Support available <br> from 10am - 7pm</h3>
+            <h4>Find Us Here</h4>
+            <ul>
+              <li><a href="javascript:void"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"
+                    fill="#ffffff">
+                    <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                    <path
+                      d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
+                  </svg></a></li>
+              <li><a href="javscript:void"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"
+                    fill="#ffffff">
+                    <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                    <path
+                      d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z" />
+                  </svg></a></li>
+              <li><a href="javascript:void(0)"><svg xmlns="http://www.w3.org/2000/svg" height="1em"
+                    viewBox="0 0 448 512" fill="#ffffff">
+                    <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                    <path
+                      d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
+                  </svg></a></li>
+              <li><a href="javascript:void(0)"><svg xmlns="http://www.w3.org/2000/svg" height="1em"
+                    viewBox="0 0 320 512" fill="#ffffff">
+                    <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                    <path
+                      d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z" />
+                  </svg></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-sm-4 mt-2 mb-3">
+          <div class="footer_address">
+            <!-- <div class="footer_logo"><img
+                src="https://ik.imagekit.io/99x/_/scrapuncle/ScrapUncle-Logo-RGB-White_1__Vrw87qAXz.png"
+                class="img-fluid" alt=""></div> -->
+            <h4>Swapeco Solutions Private Limited</h4>
+            <div class="footer_address_div">
+              <h5>Regd. Address:</h5>
+              <p>Sector 1,VASUNDHARA, Ghaziabad</p>
+            </div>
+            <!-- <div class="footer_address_div">
+              <h5>Corr Address:</h5>
+              <p>Incubation Center, IIIT Delhi, Okhla <br> Phase 3, New Delhi - 110020</p>
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+    integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="assets/js/script.js"></script>
+</body>
+
+</html>

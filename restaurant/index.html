@@ -1,0 +1,1778 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Restaurant</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body>
+    <div class="header_banner">
+        <header class="header header_desktop ">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid  px-lg-4">
+                  <a class="navbar-brand" href="#"><img src="assets/images/logo.png" alt=""></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto ms-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">about</a>
+                      </li>
+                      <!-- <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          menu
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li> -->
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">shop</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">blogs</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">contact</a>
+                      </li>
+                    </ul>
+                    <div class="header_icon">
+                        <ul>
+                            <li><a href="javascript:void(0);"><span class="material-symbols-outlined">person</span></a></li>
+                            <li class="header_kart"><a href="javscript:void(0);"><span class="material-symbols-outlined"> local_mall </span></a></li>
+                        </ul>
+                    </div>
+                  </div>
+                </div>
+            </nav>
+        </header>
+        <div class="header_mobile header">
+          <nav class="navbar navbar-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"> <img src="assets/images/logo.png" alt=""></a>
+              <div class="d-flex align-items-center">
+                <div class="header_icon me-4">
+                    <ul>
+                        <li><a href="javascript:void(0);"><span class="material-symbols-outlined">person</span></a></li>
+                        <li class="header_kart"><a href="javscript:void(0);"><span class="material-symbols-outlined"> local_mall </span></a></li>
+                    </ul>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              </div>
+              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel"><img src="assets/images/logo.png" alt=""></h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">about</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">shop</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">blogs</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">contact</a>
+                    </li>
+                    <!-- <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Dropdown
+                      </a>
+                      <ul class="dropdown-menu dropdown-menu-dark">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li>
+                          <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      </ul>
+                    </li> -->
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+        <div class="container">
+          <div class="baaner py-5">
+            <div class="row align-items-center">
+              <div class="col-sm-7 my-3">
+                <div class="banner_content">
+                  <h3>Medium 2-topping* Burger</h3>
+                  <h2>ARE YOU HUNGRY?</h2>
+                  <p>As well known and we are very busy all days advice you. advice you to call us of before arriving.</p>
+                  <a href="javascript:void(0);" class="btn btn_1 me-3">learn more</a>
+                  <a href="javascript:void(0);" class="btn btn_2">see our menu</a>
+                </div>
+              </div>
+              <div class="col-sm-5 my-3">
+                <div class="banner_image">
+                  <img src="assets/images/banner/plate_food.png" class="img-fluid" alt="plate_food">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="restaurant_menu">
+      <div class="container py-5">
+        <div class="text-center mb-4">
+          <div class="common_heading">
+            <h3>Our Popular Menu</h3>
+            <h2>WENT TO EAT?</h2>
+          </div>
+        </div>
+        <div class="menu_slider">
+          <div class="menu_card">
+            <div class="menu_cat_container">
+              <span class="menu_cat_icon"><i class="fa-solid fa-burger"></i></span>
+              <span class="menu_cat_quant">01</span>
+            </div>
+            <h5>combo pack</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <div class="text-center">
+              <img src="assets/images/menu/cat_01.png" class="img-fluid" alt="">
+            </div>
+          </div>
+          <div class="menu_card">
+            <div class="menu_cat_container">
+              <span class="menu_cat_icon"><i class="fa-solid fa-drumstick-bite"></i></span>
+              <span class="menu_cat_quant">03</span>
+            </div>
+            <h5>pizza & dirnks</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <div class="text-center">
+              <img src="assets/images/menu/cat_02.png" class="img-fluid" alt="">
+            </div>
+          </div>
+          <div class="menu_card">
+            <div class="menu_cat_container">
+              <span class="menu_cat_icon"><i class="fa-solid fa-pizza-slice"></i></span>
+              <span class="menu_cat_quant">04</span>
+            </div>
+            <h5>box meal</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <div class="text-center">
+              <img src="assets/images/menu/cat_03.png" class="img-fluid" alt="">
+            </div>
+          </div>
+          <div class="menu_card">
+            <div class="menu_cat_container">
+              <span class="menu_cat_icon"><i class="fa-solid fa-drumstick-bite"></i></span>
+              <span class="menu_cat_quant">02</span>
+            </div>
+            <h5>chicken</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <div class="text-center">
+              <img src="assets/images/menu/cat_04.png" class="img-fluid" alt="">
+            </div>
+          </div>
+          <div class="menu_card">
+            <div class="menu_cat_container">
+              <span class="menu_cat_icon"><i class="fa-solid fa-burger"></i></span>
+              <span class="menu_cat_quant">01</span>
+            </div>
+            <h5>combo pack</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <div class="text-center">
+              <img src="assets/images/menu/cat_01.png" class="img-fluid" alt="">
+            </div>
+          </div>
+          <div class="menu_card">
+            <div class="menu_cat_container">
+              <span class="menu_cat_icon"><i class="fa-solid fa-drumstick-bite"></i></span>
+              <span class="menu_cat_quant">03</span>
+            </div>
+            <h5>pizza & dirnks</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <div class="text-center">
+              <img src="assets/images/menu/cat_02.png" class="img-fluid" alt="">
+            </div>
+          </div>
+          <div class="menu_card">
+            <div class="menu_cat_container">
+              <span class="menu_cat_icon"><i class="fa-solid fa-pizza-slice"></i></span>
+              <span class="menu_cat_quant">04</span>
+            </div>
+            <h5>box meal</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <div class="text-center">
+              <img src="assets/images/menu/cat_03.png" class="img-fluid" alt="">
+            </div>
+          </div>
+          <div class="menu_card">
+            <div class="menu_cat_container">
+              <span class="menu_cat_icon"><i class="fa-solid fa-drumstick-bite"></i></span>
+              <span class="menu_cat_quant">02</span>
+            </div>
+            <h5>chicken</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <div class="text-center">
+              <img src="assets/images/menu/cat_04.png" class="img-fluid" alt="">
+            </div>
+          </div>
+          <div class="menu_card">
+            <div class="menu_cat_container">
+              <span class="menu_cat_icon"><i class="fa-solid fa-burger"></i></span>
+              <span class="menu_cat_quant">01</span>
+            </div>
+            <h5>combo pack</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <div class="text-center">
+              <img src="assets/images/menu/cat_01.png" class="img-fluid" alt="">
+            </div>
+          </div>
+          <div class="menu_card">
+            <div class="menu_cat_container">
+              <span class="menu_cat_icon"><i class="fa-solid fa-drumstick-bite"></i></span>
+              <span class="menu_cat_quant">03</span>
+            </div>
+            <h5>pizza & dirnks</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <div class="text-center">
+              <img src="assets/images/menu/cat_02.png" class="img-fluid" alt="">
+            </div>
+          </div>
+          <div class="menu_card">
+            <div class="menu_cat_container">
+              <span class="menu_cat_icon"><i class="fa-solid fa-pizza-slice"></i></span>
+              <span class="menu_cat_quant">04</span>
+            </div>
+            <h5>box meal</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <div class="text-center">
+              <img src="assets/images/menu/cat_03.png" class="img-fluid" alt="">
+            </div>
+          </div>
+          <div class="menu_card">
+            <div class="menu_cat_container">
+              <span class="menu_cat_icon"><i class="fa-solid fa-drumstick-bite"></i></span>
+              <span class="menu_cat_quant">02</span>
+            </div>
+            <h5>chicken</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <div class="text-center">
+              <img src="assets/images/menu/cat_04.png" class="img-fluid" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="specail_offer">
+      <div class="container py-5">
+        <div class="row align-items-center">
+          <div class="col-sm-7 my-3">
+            <div class="banner_content">
+              <div class="common_heading">
+                <h3>Special Offer</h3>
+                <h2>GOOD FOOD, DRINKS & <br> GREAT COMPANY.</h2>
+              </div>
+              <!-- <h3>Medium 2-topping* Burger</h3>
+              <h2>ARE YOU HUNGRY?</h2> -->
+              <p>As well known and we are very busy all days advice you. advice you to call us of before arriving, so we can guarantee your seat. advice you to call us of before arriving As well known and we are very busy all days advice you</p>
+              <!-- <a href="javascript:void(0);" class="btn btn_1 me-3">learn more</a> -->
+              <a href="javascript:void(0);" class="btn btn_2 me-4">order now</a>
+              <span class="dish_price">$46.99  <span class="dish_price_span">$46.99 </span></span>
+            </div>
+          </div>
+          <div class="col-sm-5 my-3">
+            <div class="banner_image">
+              <img src="assets/images/offer_img.png" class="img-fluid" alt="plate_food">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="popular_dishes">
+      <div class="container py-5">
+        <div class="text-center mb-4">
+          <div class="common_heading">
+            <h3>Popular dishes</h3>
+            <h2>POPULAR DISHES</h2>
+          </div>
+        </div>
+        <div class="dishes_tab">
+          <ul class="nav nav-pills mb-5 justify-content-around" id="dish-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active" id="all-cat-tab" data-bs-toggle="pill" data-bs-target="#all-cat" type="button" role="tab" aria-controls="all-cat" aria-selected="true">all categories</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="pizza-tab" data-bs-toggle="pill" data-bs-target="#pizza" type="button" role="tab" aria-controls="pizza" aria-selected="false">pizza</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="burger-tab" data-bs-toggle="pill" data-bs-target="#burger" type="button" role="tab" aria-controls="burger" aria-selected="false">burger</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="blueberry-shake-tab" data-bs-toggle="pill" data-bs-target="#blueberry-shake" type="button" role="tab" aria-controls="blueberry-shake" aria-selected="false" >blueberry shake</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="chicken-chup-tab" data-bs-toggle="pill" data-bs-target="#chicken-chup" type="button" role="tab" aria-controls="chicken-chup" aria-selected="false" >chicken chup</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="ice-cream-tab" data-bs-toggle="pill" data-bs-target="#ice-cream" type="button" role="tab" aria-controls="ice-cream" aria-selected="false" >ice cream</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="drink-tab" data-bs-toggle="pill" data-bs-target="#drink" type="button" role="tab" aria-controls="drink" aria-selected="false" >drink</button>
+            </li>
+
+
+
+
+            
+          </ul>
+          <div class="tab-content" id="dish-tabContent">
+            <div class="tab-pane fade show active" id="all-cat" role="tabpanel" aria-labelledby="all-cat-tab" tabindex="0">
+              <div class="row">
+                <div class="col-lg-4 col-md-6 mt-2 mb-3">
+                  <div class="dish_card">
+                    <div class="dish_card_discount">
+                      10%-
+                    </div>
+                    <div class="dish_card_icon">
+                      <ul>
+                        <li><a href="javascript:void(0);"><span class="material-symbols-outlined"> shopping_bag </span></a></li>
+                        <li><a href="javascript:void(0);"><span class="material-symbols-outlined"> favorite </span></a></li>
+                        <li><a href="javascript:void(0);"><span class="material-symbols-outlined"> visibility </span></a></li>
+                      </ul>
+                    </div>
+                    <div class="text-center">
+                      <a href="javascript:void(0);"><img src="assets/images/dish/img_01.png" class="img-fluid" alt="image"></a>
+                    </div>
+                    <div class="dish_card_detail">
+                      <div class="star">
+                        <span> FIZZA</span>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                      </div>
+                      
+                      <h3><a href="javascript:void(0);">UNLIMITED CHICKEN FRY</a></h3>
+                    </div>
+                    <div class="dish_card_price">
+                      <span class="span1">PRICE - $53.00</span> / <span class="span2">$75.00</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mt-2 mb-3">
+                  <div class="dish_card">
+                    <div class="dish_card_discount">
+                      new
+                    </div>
+                    <div class="dish_card_icon">
+                      <ul>
+                        <li><a href="javascript:void(0);"><span class="material-symbols-outlined"> shopping_bag </span></a></li>
+                        <li><a href="javascript:void(0);"><span class="material-symbols-outlined"> favorite </span></a></li>
+                        <li><a href="javascript:void(0);"><span class="material-symbols-outlined"> visibility </span></a></li>
+                      </ul>
+                    </div>
+                    <div class="text-center">
+                      <a href="javascript:void(0);"><img src="assets/images/dish/img_02.png" class="img-fluid" alt="image"></a>
+                    </div>
+                    <div class="dish_card_detail">
+                      <div class="star">
+                        <span> CHICKEN</span>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                      </div>
+                      <h3><a href="javascript:void(0);">BANGLADESHI SENDRUES</a></h3>
+                    </div>
+                    <div class="dish_card_price">
+                      <span class="span1">PRICE - $53.00 </span> / <span class="span2"> $75.00</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mt-2 mb-3">
+                  <div class="dish_card">
+                    <!-- <div class="dish_card_discount">
+                      new
+                    </div> -->
+                    <div class="dish_card_icon">
+                      <ul>
+                        <li><a href="javascript:void(0);"><span class="material-symbols-outlined"> shopping_bag </span></a></li>
+                        <li><a href="javascript:void(0);"><span class="material-symbols-outlined"> favorite </span></a></li>
+                        <li><a href="javascript:void(0);"><span class="material-symbols-outlined"> visibility </span></a></li>
+                      </ul>
+                    </div>
+                    <div class="text-center">
+                      <a href="javascript:void(0);"><img src="assets/images/dish/img_03.png" class="img-fluid" alt="image"></a>
+                    </div>
+                    <div class="dish_card_detail">
+                      <div class="star">
+                        <span> FULL BURGAR</span>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                      </div>
+                      
+                      <h3><a href="javascript:void(0);">DOUBLE STUCK BURGAR</a></h3>
+                    </div>
+                    <div class="dish_card_price">
+                      <span class="span1">PRICE - $33.00 </span> / <span class="span2"> $45.00</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mt-2 mb-3">
+                  <div class="dish_card">
+                    <!-- <div class="dish_card_discount">
+                      new
+                    </div> -->
+                    <div class="dish_card_icon">
+                      <ul>
+                        <li><a href="javascript:void(0);"><span class="material-symbols-outlined"> shopping_bag </span></a></li>
+                        <li><a href="javascript:void(0);"><span class="material-symbols-outlined"> favorite </span></a></li>
+                        <li><a href="javascript:void(0);"><span class="material-symbols-outlined"> visibility </span></a></li>
+                      </ul>
+                    </div>
+                    <div class="text-center">
+                      <a href="javascript:void(0);"><img src="assets/images/dish/img_04.png" class="img-fluid" alt="image"></a>
+                    </div>
+                    <div class="dish_card_detail">
+                      <div class="star">
+                        <span> FULL NOUDLUS</span>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                      </div>
+                      
+                      <h3><a href="javascript:void(0);">CHINIS POPULAR NOUDLUS</a></h3>
+                    </div>
+                    <div class="dish_card_price">
+                      <span class="span1">PRICE - $13.00 </span> / <span class="span2"> $17.00</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mt-2 mb-3">
+                  <div class="dish_card">
+                    <!-- <div class="dish_card_discount">
+                      new
+                    </div> -->
+                    <div class="dish_card_icon">
+                      <ul>
+                        <li><a href="javascript:void(0);"><span class="material-symbols-outlined"> shopping_bag </span></a></li>
+                        <li><a href="javascript:void(0);"><span class="material-symbols-outlined"> favorite </span></a></li>
+                        <li><a href="javascript:void(0);"><span class="material-symbols-outlined"> visibility </span></a></li>
+                      </ul>
+                    </div>
+                    <div class="text-center">
+                      <a href="javascript:void(0);"><img src="assets/images/dish/img_05.png" class="img-fluid" alt="image"></a>
+                    </div>
+                    <div class="dish_card_detail">
+                      <div class="star">
+                        <span> CHICKEN</span>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                      </div>
+                      
+                      <h3><a href="javascript:void(0);">UNLIMITED FULL CHICKEN</a></h3>
+                    </div>
+                    <div class="dish_card_price">
+                      <span class="span1">PRICE - $66.00 </span> / <span class="span2"> $77.00</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mt-2 mb-3">
+                  <div class="dish_card">
+                    <div class="dish_card_discount">
+                      new
+                    </div>
+                    <div class="dish_card_icon">
+                      <ul>
+                        <li><a href="javascript:void(0);"><span class="material-symbols-outlined"> shopping_bag </span></a></li>
+                        <li><a href="javascript:void(0);"><span class="material-symbols-outlined"> favorite </span></a></li>
+                        <li><a href="javascript:void(0);"><span class="material-symbols-outlined"> visibility </span></a></li>
+                      </ul>
+                    </div>
+                    <div class="text-center">
+                      <a href="javascript:void(0);"><img src="assets/images/dish/img_06.png" class="img-fluid" alt="image"></a>
+                    </div>
+                    <div class="dish_card_detail">
+                      <div class="star">
+                        <span> FULL BURGAR</span>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                      </div>
+                      
+                      <h3><a href="javascript:void(0);">BANGLADESHI SENDRUES</a></h3>
+                    </div>
+                    <div class="dish_card_price">
+                      <span class="span1">PRICE - $53.00 </span> / <span class="span2"> $75.00</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-12 mt-4">
+                  <div class="text-center">
+                    <a href="javascript:void(0)" class="btn btn_2">SELL ALL PRODUCT</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="pizza" role="tabpanel" aria-labelledby="pizza-tab" tabindex="0">
+              <div class="row">
+                
+                <div class="col-lg-4 col-md-6 mt-2 mb-3">
+                  <div class="dish_card">
+                    <div class="dish_card_discount">
+                      new
+                    </div>
+                    <div class="dish_card_icon">
+                      <ul>
+                        <li><a href="javascript:void(0);"><span class="material-symbols-outlined"> shopping_bag </span></a></li>
+                        <li><a href="javascript:void(0);"><span class="material-symbols-outlined"> favorite </span></a></li>
+                        <li><a href="javascript:void(0);"><span class="material-symbols-outlined"> visibility </span></a></li>
+                      </ul>
+                    </div>
+                    <div class="text-center">
+                      <a href="javascript:void(0);"><img src="assets/images/dish/img_02.png" class="img-fluid" alt="image"></a>
+                    </div>
+                    <div class="dish_card_detail">
+                      <div class="star">
+                        <span> CHICKEN</span>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                      </div>
+                      <h3><a href="javascript:void(0);">BANGLADESHI SENDRUES</a></h3>
+                    </div>
+                    <div class="dish_card_price">
+                      <span class="span1">PRICE - $53.00 </span> / <span class="span2"> $75.00</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mt-2 mb-3">
+                  <div class="dish_card">
+                    <!-- <div class="dish_card_discount">
+                      new
+                    </div> -->
+                    <div class="dish_card_icon">
+                      <ul>
+                        <li><a href="javascript:void(0);"><span class="material-symbols-outlined"> shopping_bag </span></a></li>
+                        <li><a href="javascript:void(0);"><span class="material-symbols-outlined"> favorite </span></a></li>
+                        <li><a href="javascript:void(0);"><span class="material-symbols-outlined"> visibility </span></a></li>
+                      </ul>
+                    </div>
+                    <div class="text-center">
+                      <a href="javascript:void(0);"><img src="assets/images/dish/img_03.png" class="img-fluid" alt="image"></a>
+                    </div>
+                    <div class="dish_card_detail">
+                      <div class="star">
+                        <span> FULL BURGAR</span>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                      </div>
+                      
+                      <h3><a href="javascript:void(0);">DOUBLE STUCK BURGAR</a></h3>
+                    </div>
+                    <div class="dish_card_price">
+                      <span class="span1">PRICE - $33.00 </span> / <span class="span2"> $45.00</span>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 mt-2 mb-3">
+                  <div class="dish_card">
+                    <div class="dish_card_discount">
+                      new
+                    </div>
+                    <div class="dish_card_icon">
+                      <ul>
+                        <li><a href="javascript:void(0);"><span class="material-symbols-outlined"> shopping_bag </span></a></li>
+                        <li><a href="javascript:void(0);"><span class="material-symbols-outlined"> favorite </span></a></li>
+                        <li><a href="javascript:void(0);"><span class="material-symbols-outlined"> visibility </span></a></li>
+                      </ul>
+                    </div>
+                    <div class="text-center">
+                      <a href="javascript:void(0);"><img src="assets/images/dish/img_06.png" class="img-fluid" alt="image"></a>
+                    </div>
+                    <div class="dish_card_detail">
+                      <div class="star">
+                        <span> FULL BURGAR</span>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                      </div>
+                      
+                      <h3><a href="javascript:void(0);">BANGLADESHI SENDRUES</a></h3>
+                    </div>
+                    <div class="dish_card_price">
+                      <span class="span1">PRICE - $53.00 </span> / <span class="span2"> $75.00</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-12 mt-4">
+                  <div class="text-center">
+                    <a href="javascript:void(0)" class="btn btn_2">SELL ALL PRODUCT</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="burger" role="tabpanel" aria-labelledby="burger-tab" tabindex="0">
+              <div class="row">
+                <div class="col-lg-4 col-md-6 mt-2 mb-3">
+                  <div class="dish_card">
+                    <div class="dish_card_discount">
+                      10%-
+                    </div>
+                    <div class="dish_card_icon">
+                      <ul>
+                        <li><a href="javascript:void(0);"><span class="material-symbols-outlined"> shopping_bag </span></a></li>
+                        <li><a href="javascript:void(0);"><span class="material-symbols-outlined"> favorite </span></a></li>
+                        <li><a href="javascript:void(0);"><span class="material-symbols-outlined"> visibility </span></a></li>
+                      </ul>
+                    </div>
+                    <div class="text-center">
+                      <a href="javascript:void(0);"><img src="assets/images/dish/img_01.png" class="img-fluid" alt="image"></a>
+                    </div>
+                    <div class="dish_card_detail">
+                      <div class="star">
+                        <span> FIZZA</span>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                      </div>
+                      
+                      <h3><a href="javascript:void(0);">UNLIMITED CHICKEN FRY</a></h3>
+                    </div>
+                    <div class="dish_card_price">
+                      <span class="span1">PRICE - $53.00</span> / <span class="span2">$75.00</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mt-2 mb-3">
+                  <div class="dish_card">
+                    <div class="dish_card_discount">
+                      new
+                    </div>
+                    <div class="dish_card_icon">
+                      <ul>
+                        <li><a href="javascript:void(0);"><span class="material-symbols-outlined"> shopping_bag </span></a></li>
+                        <li><a href="javascript:void(0);"><span class="material-symbols-outlined"> favorite </span></a></li>
+                        <li><a href="javascript:void(0);"><span class="material-symbols-outlined"> visibility </span></a></li>
+                      </ul>
+                    </div>
+                    <div class="text-center">
+                      <a href="javascript:void(0);"><img src="assets/images/dish/img_02.png" class="img-fluid" alt="image"></a>
+                    </div>
+                    <div class="dish_card_detail">
+                      <div class="star">
+                        <span> CHICKEN</span>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                      </div>
+                      <h3><a href="javascript:void(0);">BANGLADESHI SENDRUES</a></h3>
+                    </div>
+                    <div class="dish_card_price">
+                      <span class="span1">PRICE - $53.00 </span> / <span class="span2"> $75.00</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mt-2 mb-3">
+                  <div class="dish_card">
+                    <!-- <div class="dish_card_discount">
+                      new
+                    </div> -->
+                    <div class="dish_card_icon">
+                      <ul>
+                        <li><a href="javascript:void(0);"><span class="material-symbols-outlined"> shopping_bag </span></a></li>
+                        <li><a href="javascript:void(0);"><span class="material-symbols-outlined"> favorite </span></a></li>
+                        <li><a href="javascript:void(0);"><span class="material-symbols-outlined"> visibility </span></a></li>
+                      </ul>
+                    </div>
+                    <div class="text-center">
+                      <a href="javascript:void(0);"><img src="assets/images/dish/img_03.png" class="img-fluid" alt="image"></a>
+                    </div>
+                    <div class="dish_card_detail">
+                      <div class="star">
+                        <span> FULL BURGAR</span>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                      </div>
+                      
+                      <h3><a href="javascript:void(0);">DOUBLE STUCK BURGAR</a></h3>
+                    </div>
+                    <div class="dish_card_price">
+                      <span class="span1">PRICE - $33.00 </span> / <span class="span2"> $45.00</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mt-2 mb-3">
+                  <div class="dish_card">
+                    <!-- <div class="dish_card_discount">
+                      new
+                    </div> -->
+                    <div class="dish_card_icon">
+                      <ul>
+                        <li><a href="javascript:void(0);"><span class="material-symbols-outlined"> shopping_bag </span></a></li>
+                        <li><a href="javascript:void(0);"><span class="material-symbols-outlined"> favorite </span></a></li>
+                        <li><a href="javascript:void(0);"><span class="material-symbols-outlined"> visibility </span></a></li>
+                      </ul>
+                    </div>
+                    <div class="text-center">
+                      <a href="javascript:void(0);"><img src="assets/images/dish/img_05.png" class="img-fluid" alt="image"></a>
+                    </div>
+                    <div class="dish_card_detail">
+                      <div class="star">
+                        <span> CHICKEN</span>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                      </div>
+                      
+                      <h3><a href="javascript:void(0);">UNLIMITED FULL CHICKEN</a></h3>
+                    </div>
+                    <div class="dish_card_price">
+                      <span class="span1">PRICE - $66.00 </span> / <span class="span2"> $77.00</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-12 mt-4">
+                  <div class="text-center">
+                    <a href="javascript:void(0)" class="btn btn_2">SELL ALL PRODUCT</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="blueberry-shake" role="tabpanel" aria-labelledby="blueberry-shake-tab" tabindex="0">
+              <div class="row">
+                <div class="col-lg-4 col-md-6 mt-2 mb-3">
+                  <div class="dish_card">
+                    <!-- <div class="dish_card_discount">
+                      new
+                    </div> -->
+                    <div class="dish_card_icon">
+                      <ul>
+                        <li><a href="javascript:void(0);"><span class="material-symbols-outlined"> shopping_bag </span></a></li>
+                        <li><a href="javascript:void(0);"><span class="material-symbols-outlined"> favorite </span></a></li>
+                        <li><a href="javascript:void(0);"><span class="material-symbols-outlined"> visibility </span></a></li>
+                      </ul>
+                    </div>
+                    <div class="text-center">
+                      <a href="javascript:void(0);"><img src="assets/images/dish/img_04.png" class="img-fluid" alt="image"></a>
+                    </div>
+                    <div class="dish_card_detail">
+                      <div class="star">
+                        <span> FULL NOUDLUS</span>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                      </div>
+                      
+                      <h3><a href="javascript:void(0);">CHINIS POPULAR NOUDLUS</a></h3>
+                    </div>
+                    <div class="dish_card_price">
+                      <span class="span1">PRICE - $13.00 </span> / <span class="span2"> $17.00</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mt-2 mb-3">
+                  <div class="dish_card">
+                    <!-- <div class="dish_card_discount">
+                      new
+                    </div> -->
+                    <div class="dish_card_icon">
+                      <ul>
+                        <li><a href="javascript:void(0);"><span class="material-symbols-outlined"> shopping_bag </span></a></li>
+                        <li><a href="javascript:void(0);"><span class="material-symbols-outlined"> favorite </span></a></li>
+                        <li><a href="javascript:void(0);"><span class="material-symbols-outlined"> visibility </span></a></li>
+                      </ul>
+                    </div>
+                    <div class="text-center">
+                      <a href="javascript:void(0);"><img src="assets/images/dish/img_05.png" class="img-fluid" alt="image"></a>
+                    </div>
+                    <div class="dish_card_detail">
+                      <div class="star">
+                        <span> CHICKEN</span>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                      </div>
+                      
+                      <h3><a href="javascript:void(0);">UNLIMITED FULL CHICKEN</a></h3>
+                    </div>
+                    <div class="dish_card_price">
+                      <span class="span1">PRICE - $66.00 </span> / <span class="span2"> $77.00</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mt-2 mb-3">
+                  <div class="dish_card">
+                    <div class="dish_card_discount">
+                      new
+                    </div>
+                    <div class="dish_card_icon">
+                      <ul>
+                        <li><a href="javascript:void(0);"><span class="material-symbols-outlined"> shopping_bag </span></a></li>
+                        <li><a href="javascript:void(0);"><span class="material-symbols-outlined"> favorite </span></a></li>
+                        <li><a href="javascript:void(0);"><span class="material-symbols-outlined"> visibility </span></a></li>
+                      </ul>
+                    </div>
+                    <div class="text-center">
+                      <a href="javascript:void(0);"><img src="assets/images/dish/img_06.png" class="img-fluid" alt="image"></a>
+                    </div>
+                    <div class="dish_card_detail">
+                      <div class="star">
+                        <span> FULL BURGAR</span>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                      </div>
+                      
+                      <h3><a href="javascript:void(0);">BANGLADESHI SENDRUES</a></h3>
+                    </div>
+                    <div class="dish_card_price">
+                      <span class="span1">PRICE - $53.00 </span> / <span class="span2"> $75.00</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-12 mt-4">
+                  <div class="text-center">
+                    <a href="javascript:void(0)" class="btn btn_2">SELL ALL PRODUCT</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="chicken-chup" role="tabpanel" aria-labelledby="chicken-chup-tab" tabindex="0">
+              <div class="row">
+                <div class="col-lg-4 col-md-6 mt-2 mb-3">
+                  <div class="dish_card">
+                    <div class="dish_card_discount">
+                      10%-
+                    </div>
+                    <div class="dish_card_icon">
+                      <ul>
+                        <li><a href="javascript:void(0);"><span class="material-symbols-outlined"> shopping_bag </span></a></li>
+                        <li><a href="javascript:void(0);"><span class="material-symbols-outlined"> favorite </span></a></li>
+                        <li><a href="javascript:void(0);"><span class="material-symbols-outlined"> visibility </span></a></li>
+                      </ul>
+                    </div>
+                    <div class="text-center">
+                      <a href="javascript:void(0);"><img src="assets/images/dish/img_01.png" class="img-fluid" alt="image"></a>
+                    </div>
+                    <div class="dish_card_detail">
+                      <div class="star">
+                        <span> FIZZA</span>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                      </div>
+                      
+                      <h3><a href="javascript:void(0);">UNLIMITED CHICKEN FRY</a></h3>
+                    </div>
+                    <div class="dish_card_price">
+                      <span class="span1">PRICE - $53.00</span> / <span class="span2">$75.00</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mt-2 mb-3">
+                  <div class="dish_card">
+                    <div class="dish_card_discount">
+                      new
+                    </div>
+                    <div class="dish_card_icon">
+                      <ul>
+                        <li><a href="javascript:void(0);"><span class="material-symbols-outlined"> shopping_bag </span></a></li>
+                        <li><a href="javascript:void(0);"><span class="material-symbols-outlined"> favorite </span></a></li>
+                        <li><a href="javascript:void(0);"><span class="material-symbols-outlined"> visibility </span></a></li>
+                      </ul>
+                    </div>
+                    <div class="text-center">
+                      <a href="javascript:void(0);"><img src="assets/images/dish/img_02.png" class="img-fluid" alt="image"></a>
+                    </div>
+                    <div class="dish_card_detail">
+                      <div class="star">
+                        <span> CHICKEN</span>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                      </div>
+                      <h3><a href="javascript:void(0);">BANGLADESHI SENDRUES</a></h3>
+                    </div>
+                    <div class="dish_card_price">
+                      <span class="span1">PRICE - $53.00 </span> / <span class="span2"> $75.00</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mt-2 mb-3">
+                  <div class="dish_card">
+                    <!-- <div class="dish_card_discount">
+                      new
+                    </div> -->
+                    <div class="dish_card_icon">
+                      <ul>
+                        <li><a href="javascript:void(0);"><span class="material-symbols-outlined"> shopping_bag </span></a></li>
+                        <li><a href="javascript:void(0);"><span class="material-symbols-outlined"> favorite </span></a></li>
+                        <li><a href="javascript:void(0);"><span class="material-symbols-outlined"> visibility </span></a></li>
+                      </ul>
+                    </div>
+                    <div class="text-center">
+                      <a href="javascript:void(0);"><img src="assets/images/dish/img_03.png" class="img-fluid" alt="image"></a>
+                    </div>
+                    <div class="dish_card_detail">
+                      <div class="star">
+                        <span> FULL BURGAR</span>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                      </div>
+                      
+                      <h3><a href="javascript:void(0);">DOUBLE STUCK BURGAR</a></h3>
+                    </div>
+                    <div class="dish_card_price">
+                      <span class="span1">PRICE - $33.00 </span> / <span class="span2"> $45.00</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mt-2 mb-3">
+                  <div class="dish_card">
+                    <div class="dish_card_discount">
+                      new
+                    </div>
+                    <div class="dish_card_icon">
+                      <ul>
+                        <li><a href="javascript:void(0);"><span class="material-symbols-outlined"> shopping_bag </span></a></li>
+                        <li><a href="javascript:void(0);"><span class="material-symbols-outlined"> favorite </span></a></li>
+                        <li><a href="javascript:void(0);"><span class="material-symbols-outlined"> visibility </span></a></li>
+                      </ul>
+                    </div>
+                    <div class="text-center">
+                      <a href="javascript:void(0);"><img src="assets/images/dish/img_06.png" class="img-fluid" alt="image"></a>
+                    </div>
+                    <div class="dish_card_detail">
+                      <div class="star">
+                        <span> FULL BURGAR</span>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                      </div>
+                      
+                      <h3><a href="javascript:void(0);">BANGLADESHI SENDRUES</a></h3>
+                    </div>
+                    <div class="dish_card_price">
+                      <span class="span1">PRICE - $53.00 </span> / <span class="span2"> $75.00</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-12 mt-4">
+                  <div class="text-center">
+                    <a href="javascript:void(0)" class="btn btn_2">SELL ALL PRODUCT</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="ice-cream" role="tabpanel" aria-labelledby="ice-cream-tab" tabindex="0">
+              <div class="row">
+                <div class="col-lg-4 col-md-6 mt-2 mb-3">
+                  <div class="dish_card">
+                    <div class="dish_card_discount">
+                      10%-
+                    </div>
+                    <div class="dish_card_icon">
+                      <ul>
+                        <li><a href="javascript:void(0);"><span class="material-symbols-outlined"> shopping_bag </span></a></li>
+                        <li><a href="javascript:void(0);"><span class="material-symbols-outlined"> favorite </span></a></li>
+                        <li><a href="javascript:void(0);"><span class="material-symbols-outlined"> visibility </span></a></li>
+                      </ul>
+                    </div>
+                    <div class="text-center">
+                      <a href="javascript:void(0);"><img src="assets/images/dish/img_01.png" class="img-fluid" alt="image"></a>
+                    </div>
+                    <div class="dish_card_detail">
+                      <div class="star">
+                        <span> FIZZA</span>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                      </div>
+                      
+                      <h3><a href="javascript:void(0);">UNLIMITED CHICKEN FRY</a></h3>
+                    </div>
+                    <div class="dish_card_price">
+                      <span class="span1">PRICE - $53.00</span> / <span class="span2">$75.00</span>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 mt-2 mb-3">
+                  <div class="dish_card">
+                    <!-- <div class="dish_card_discount">
+                      new
+                    </div> -->
+                    <div class="dish_card_icon">
+                      <ul>
+                        <li><a href="javascript:void(0);"><span class="material-symbols-outlined"> shopping_bag </span></a></li>
+                        <li><a href="javascript:void(0);"><span class="material-symbols-outlined"> favorite </span></a></li>
+                        <li><a href="javascript:void(0);"><span class="material-symbols-outlined"> visibility </span></a></li>
+                      </ul>
+                    </div>
+                    <div class="text-center">
+                      <a href="javascript:void(0);"><img src="assets/images/dish/img_05.png" class="img-fluid" alt="image"></a>
+                    </div>
+                    <div class="dish_card_detail">
+                      <div class="star">
+                        <span> CHICKEN</span>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                      </div>
+                      
+                      <h3><a href="javascript:void(0);">UNLIMITED FULL CHICKEN</a></h3>
+                    </div>
+                    <div class="dish_card_price">
+                      <span class="span1">PRICE - $66.00 </span> / <span class="span2"> $77.00</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mt-2 mb-3">
+                  <div class="dish_card">
+                    <div class="dish_card_discount">
+                      new
+                    </div>
+                    <div class="dish_card_icon">
+                      <ul>
+                        <li><a href="javascript:void(0);"><span class="material-symbols-outlined"> shopping_bag </span></a></li>
+                        <li><a href="javascript:void(0);"><span class="material-symbols-outlined"> favorite </span></a></li>
+                        <li><a href="javascript:void(0);"><span class="material-symbols-outlined"> visibility </span></a></li>
+                      </ul>
+                    </div>
+                    <div class="text-center">
+                      <a href="javascript:void(0);"><img src="assets/images/dish/img_06.png" class="img-fluid" alt="image"></a>
+                    </div>
+                    <div class="dish_card_detail">
+                      <div class="star">
+                        <span> FULL BURGAR</span>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                      </div>
+                      
+                      <h3><a href="javascript:void(0);">BANGLADESHI SENDRUES</a></h3>
+                    </div>
+                    <div class="dish_card_price">
+                      <span class="span1">PRICE - $53.00 </span> / <span class="span2"> $75.00</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-12 mt-4">
+                  <div class="text-center">
+                    <a href="javascript:void(0)" class="btn btn_2">SELL ALL PRODUCT</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="drink" role="tabpanel" aria-labelledby="drink-tab" tabindex="0">
+              <div class="row">
+                <div class="col-lg-4 col-md-6 mt-2 mb-3">
+                  <div class="dish_card">
+                    <div class="dish_card_discount">
+                      10%-
+                    </div>
+                    <div class="dish_card_icon">
+                      <ul>
+                        <li><a href="javascript:void(0);"><span class="material-symbols-outlined"> shopping_bag </span></a></li>
+                        <li><a href="javascript:void(0);"><span class="material-symbols-outlined"> favorite </span></a></li>
+                        <li><a href="javascript:void(0);"><span class="material-symbols-outlined"> visibility </span></a></li>
+                      </ul>
+                    </div>
+                    <div class="text-center">
+                      <a href="javascript:void(0);"><img src="assets/images/dish/img_01.png" class="img-fluid" alt="image"></a>
+                    </div>
+                    <div class="dish_card_detail">
+                      <div class="star">
+                        <span> FIZZA</span>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                      </div>
+                      
+                      <h3><a href="javascript:void(0);">UNLIMITED CHICKEN FRY</a></h3>
+                    </div>
+                    <div class="dish_card_price">
+                      <span class="span1">PRICE - $53.00</span> / <span class="span2">$75.00</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mt-2 mb-3">
+                  <div class="dish_card">
+                    <div class="dish_card_discount">
+                      new
+                    </div>
+                    <div class="dish_card_icon">
+                      <ul>
+                        <li><a href="javascript:void(0);"><span class="material-symbols-outlined"> shopping_bag </span></a></li>
+                        <li><a href="javascript:void(0);"><span class="material-symbols-outlined"> favorite </span></a></li>
+                        <li><a href="javascript:void(0);"><span class="material-symbols-outlined"> visibility </span></a></li>
+                      </ul>
+                    </div>
+                    <div class="text-center">
+                      <a href="javascript:void(0);"><img src="assets/images/dish/img_02.png" class="img-fluid" alt="image"></a>
+                    </div>
+                    <div class="dish_card_detail">
+                      <div class="star">
+                        <span> CHICKEN</span>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                      </div>
+                      <h3><a href="javascript:void(0);">BANGLADESHI SENDRUES</a></h3>
+                    </div>
+                    <div class="dish_card_price">
+                      <span class="span1">PRICE - $53.00 </span> / <span class="span2"> $75.00</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mt-2 mb-3">
+                  <div class="dish_card">
+                    <!-- <div class="dish_card_discount">
+                      new
+                    </div> -->
+                    <div class="dish_card_icon">
+                      <ul>
+                        <li><a href="javascript:void(0);"><span class="material-symbols-outlined"> shopping_bag </span></a></li>
+                        <li><a href="javascript:void(0);"><span class="material-symbols-outlined"> favorite </span></a></li>
+                        <li><a href="javascript:void(0);"><span class="material-symbols-outlined"> visibility </span></a></li>
+                      </ul>
+                    </div>
+                    <div class="text-center">
+                      <a href="javascript:void(0);"><img src="assets/images/dish/img_03.png" class="img-fluid" alt="image"></a>
+                    </div>
+                    <div class="dish_card_detail">
+                      <div class="star">
+                        <span> FULL BURGAR</span>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                      </div>
+                      
+                      <h3><a href="javascript:void(0);">DOUBLE STUCK BURGAR</a></h3>
+                    </div>
+                    <div class="dish_card_price">
+                      <span class="span1">PRICE - $33.00 </span> / <span class="span2"> $45.00</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mt-2 mb-3">
+                  <div class="dish_card">
+                    <!-- <div class="dish_card_discount">
+                      new
+                    </div> -->
+                    <div class="dish_card_icon">
+                      <ul>
+                        <li><a href="javascript:void(0);"><span class="material-symbols-outlined"> shopping_bag </span></a></li>
+                        <li><a href="javascript:void(0);"><span class="material-symbols-outlined"> favorite </span></a></li>
+                        <li><a href="javascript:void(0);"><span class="material-symbols-outlined"> visibility </span></a></li>
+                      </ul>
+                    </div>
+                    <div class="text-center">
+                      <a href="javascript:void(0);"><img src="assets/images/dish/img_05.png" class="img-fluid" alt="image"></a>
+                    </div>
+                    <div class="dish_card_detail">
+                      <div class="star">
+                        <span> CHICKEN</span>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                      </div>
+                      
+                      <h3><a href="javascript:void(0);">UNLIMITED FULL CHICKEN</a></h3>
+                    </div>
+                    <div class="dish_card_price">
+                      <span class="span1">PRICE - $66.00 </span> / <span class="span2"> $77.00</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-12 mt-4">
+                  <div class="text-center">
+                    <a href="javascript:void(0)" class="btn btn_2">SELL ALL PRODUCT</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="combo_special">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-lg-7 col-md-8">
+            <div class="banner_content">
+              <div class="common_heading">
+                <h3>Special Kombo Pack</h3>
+                <h2>WE MAKE THE BEST* <br> BURGER IN YOUR TOWN</h2>
+              </div>
+              <!-- <h3>Medium 2-topping* Burger</h3>
+              <h2>ARE YOU HUNGRY?</h2> -->
+              <p class="w-100">As well known and we are very busy all days advice you. advice you to call us of before arriving, so we can guarantee your seat. advice you to call us of before arriving, so we canAs well known and we are very busy all days advice you. advice you to call us of before arriving</p>
+              <!-- <a href="javascript:void(0);" class="btn btn_1 me-3">learn more</a> -->
+              <a href="javascript:void(0);" class="btn btn_2 me-4">order now</a>
+              <span class="dish_price">$46.99 <span class="dish_price_span">$59.99 </span></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="restaurant_app">
+      <div class="container">
+        <div class="restaurant_app_container">
+          <div class="row align-items-center justify-content-between">
+            <div class="col-sm-5">
+              <div class="h-100">
+                <div class="mobile_image">
+                  <img src="assets/images/cta_app.png" class="img-fluid" alt="image">
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-5 col-md-12">
+              <div class="restaurant_app_content">
+                <div class="common_heading">
+                  <h3>Download App</h3>
+                  <h2>BEST APP FOR <br> FOOD DELIVERY</h2>
+                </div>
+                <div class="mt-4">
+                  <img src="assets/images/app_store.png" class="img-fluid me-3" alt="image">
+                  <img src="assets/images/play_store.png" class="img-fluid" alt="image">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="staff">
+      <div class="container py-5">
+        <div class="row align-items-center justify-content-between mb-5">
+          <div class="col-sm-6">
+            <div class="common_heading">
+              <h3>Our Professional</h3>
+              <h2>MEET OUR STUFF</h2>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="text-end">
+              <button class="btn btn_1">VIEW ALL STAFF</button>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4 mt-2 mb-3">
+            <div class="staff_card">
+              <img src="assets/images/staff/img_01.png" class="img-fluid" alt="">
+              <div class="staff_detail">
+                <h4>RASALINA DE</h4>
+                <h6>12 YEAR EXPERIENCE</h6>
+              </div>
+              <div class="staff_social_icon">
+                <ul>
+                  <li><a href="javascript:void(0);"><i class="fa-brands fa-facebook-f"></i></a></li>
+                  <li><a href="javascript:void(0);"><i class="fa-brands fa-twitter"></i></a></li>
+                  <li><a href="javascript:void(0);"><i class="fa-brands fa-youtube"></i></a></li>
+                  <li><a href="javascript:void(0);"><i class="fa-brands fa-instagram"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4 mt-2 mb-3">
+            <div class="staff_card">
+              <img src="assets/images/staff/img_02.png" class="img-fluid" alt="">
+              <div class="staff_detail">
+                <h4>MARK HENERYTIX</h4>
+                <h6>09 YEAR EXPERIENCE</h6>
+              </div>
+              <div class="staff_social_icon">
+                <ul>
+                  <li><a href="javascript:void(0);"><i class="fa-brands fa-facebook-f"></i></a></li>
+                  <li><a href="javascript:void(0);"><i class="fa-brands fa-twitter"></i></a></li>
+                  <li><a href="javascript:void(0);"><i class="fa-brands fa-youtube"></i></a></li>
+                  <li><a href="javascript:void(0);"><i class="fa-brands fa-instagram"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4 mt-2 mb-3">
+            <div class="staff_card">
+              <img src="assets/images/staff/img_03.png" class="img-fluid" alt="">
+              <div class="staff_detail">
+                <h4>YLINA PITERSON KIM</h4>
+                <h6>06 YEAR EXPERIENCE</h6>
+              </div>
+              <div class="staff_social_icon">
+                <ul>
+                  <li><a href="javascript:void(0);"><i class="fa-brands fa-facebook-f"></i></a></li>
+                  <li><a href="javascript:void(0);"><i class="fa-brands fa-twitter"></i></a></li>
+                  <li><a href="javascript:void(0);"><i class="fa-brands fa-youtube"></i></a></li>
+                  <li><a href="javascript:void(0);"><i class="fa-brands fa-instagram"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="feedback">
+      <div class="feedback_container">
+        <div class="container-fluid">
+          <div class="row align-items-center justify-content-between">
+            <div class="col-sm-6 my-3">
+              <div class="feedback_content">
+                <div class="banner_content">
+                  <div class="common_heading">
+                    <h3>Customer Feedback</h3>
+                    <h2>WHAT OUR CLIENT SAY ?</h2>
+                  </div>
+                  <!-- <h3>Medium 2-topping* Burger</h3>
+                  <h2>ARE YOU HUNGRY?</h2> -->
+                  <p class="w-100">As well known and we are very busy all days advice you. advice you to call us of before arriving, so we can guarantee your seat. advice you to call us of before arriving, so we canAs well known and we are very busy all days advice you. advice you to call us of before arriving</p>
+                  <!-- <a href="javascript:void(0);" class="btn btn_1 me-3">learn more</a> -->
+                  <!-- <a href="javascript:void(0);" class="btn btn_2 me-4">order now</a> -->
+                  <div class="row">
+                    <div class="col-4">
+                      <div class="feedback_reward">
+                        <h4>14k<span>+</span></h4>
+                        <h6>HAPPY CUSTOMER</h6>
+                      </div>
+                    </div>
+                    <div class="col-4">
+                      <div class="feedback_reward">
+                        <h4>16<span>+</span></h4>
+                        <h6>AWARD WINING</h6>
+                      </div>
+                    </div>
+                    <div class="col-4">
+                      <div class="feedback_reward">
+                        <h4>68<span>+</span></h4>
+                        <h6>FOOD MENU</h6>
+                      </div>
+                    </div>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 my-3">
+              <div class="feedback_section_container">
+                <div class="feedback_section">
+                  <div class="feedback_card">
+                    <div class="d-flex align-items-center justify-content-between mb-4" >
+                      <img src="assets/images/author_01.png" class="img-fluid" alt="">
+                      <img src="assets/images/quote.png" class="img-fluid" alt="">
+                    </div>
+                    <p>Great food! Fresh, quick, friendly, delicious, affordable! Very flexible with orders. Great service! Great portions! If you want great seafood, this place will not disappoint you. Definitelyy.</p>
+                    <div class="d-flex align-items-center justify-content-between mt-5">
+                      <div class="feedback_author">
+                        <h4>Rasalina De</h4>
+                        <h6>Founder & co</h6>
+                      </div>
+                      <div class="feedback_rating">
+                        <div class="feedback_rating_star">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-regularfa-star"></i>
+                        </div>
+                        <h6>4 Rating</h6>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="feedback_card">
+                    <div class="d-flex align-items-center justify-content-between mb-4" >
+                      <img src="assets/images/author_01.png" class="img-fluid" alt="">
+                      <img src="assets/images/quote.png" class="img-fluid" alt="">
+                    </div>
+                    <p>Great food! Fresh, quick, friendly, delicious, affordable! Very flexible with orders. Great service! Great portions! If you want great seafood, this place will not disappoint you. Definitelyy.</p>
+                    <div class="d-flex align-items-center justify-content-between mt-5">
+                      <div class="feedback_author">
+                        <h4>Rasalina De</h4>
+                        <h6>Founder & co</h6>
+                      </div>
+                      <div class="feedback_rating">
+                        <div class="feedback_rating_star">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-regularfa-star"></i>
+                        </div>
+                        <h6>4 Rating</h6>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="feedback_card">
+                    <div class="d-flex align-items-center justify-content-between mb-4" >
+                      <img src="assets/images/author_01.png" class="img-fluid" alt="">
+                      <img src="assets/images/quote.png" class="img-fluid" alt="">
+                    </div>
+                    <p>Great food! Fresh, quick, friendly, delicious, affordable! Very flexible with orders. Great service! Great portions! If you want great seafood, this place will not disappoint you. Definitelyy.</p>
+                    <div class="d-flex align-items-center justify-content-between mt-5">
+                      <div class="feedback_author">
+                        <h4>Rasalina De</h4>
+                        <h6>Founder & co</h6>
+                      </div>
+                      <div class="feedback_rating">
+                        <div class="feedback_rating_star">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-regularfa-star"></i>
+                        </div>
+                        <h6>4 Rating</h6>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="feedback_card">
+                    <div class="d-flex align-items-center justify-content-between mb-4" >
+                      <img src="assets/images/author_01.png" class="img-fluid" alt="">
+                      <img src="assets/images/quote.png" class="img-fluid" alt="">
+                    </div>
+                    <p>Great food! Fresh, quick, friendly, delicious, affordable! Very flexible with orders. Great service! Great portions! If you want great seafood, this place will not disappoint you. Definitelyy.</p>
+                    <div class="d-flex align-items-center justify-content-between mt-5">
+                      <div class="feedback_author">
+                        <h4>Rasalina De</h4>
+                        <h6>Founder & co</h6>
+                      </div>
+                      <div class="feedback_rating">
+                        <div class="feedback_rating_star">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-regularfa-star"></i>
+                        </div>
+                        <h6>4 Rating</h6>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="blog">
+      <div class="container py-5">
+          <div class="text-center mb-4">
+            <div class="common_heading">
+              <h3>Recent Article</h3>
+              <h2>LATEST NEWS & BLOG</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-4 mt-2 mb-3">
+              <div class="blog_card">
+                <div class="blog_title">
+                  <h6>13 DECEMBER 2021</h6>
+                  <h4><a href="javascript:void(0);">BEST BURGER IN YOUR SOCI...</a></h4>
+                </div>
+                <div class="blog_image">
+                  <a href="javascript:void(0);"><img src="assets/images/blog_01.jpg" class="img-fluid" alt=""></a>
+                </div>
+                <div class="blog_button">
+                    <a href="javascript:void(0);"><i class="fa-solid fa-arrow-right-long"></i> READ MORE
+                    </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 mt-2 mb-3">
+              <div class="blog_card">
+                <div class="blog_title">
+                  <h6>02 JANUARY 2021</h6>
+                  <h4><a href="javascript:void(0);">12 SPEEDY SEAFOOD RECIPES...</a></h4>
+                </div>
+                <div class="blog_image">
+                  <a href="javascript:void(0);"><img src="assets/images/blog_02.jpg" class="img-fluid" alt=""></a>
+                </div>
+                <div class="blog_button">
+                    <a href="javascript:void(0);"><i class="fa-solid fa-arrow-right-long"></i> READ MORE
+                    </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 mt-2 mb-3">
+              <div class="blog_card">
+                <div class="blog_title">
+                  <h6>09 JULY 2021</h6>
+                  <h4><a href="javascript:void(0);">WHO’S WINNING THE FAST...</a></h4>
+                </div>
+                <div class="blog_image">
+                  <a href="javascript:void(0);"><img src="assets/images/blog_03.jpg" class="img-fluid" alt=""></a>
+                </div>
+                <div class="blog_button">
+                    <a href="javascript:void(0);"><i class="fa-solid fa-arrow-right-long"></i> READ MORE
+                    </a>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="client_section">
+      <div class="container-fluid">
+        <div class="row align-items-center">
+          <div class="col-sm-2 p-md-0">
+            <div class="border-start border-end px-4 py-5 text-center">
+              <img src="assets/images/brand_01.png" class="img-fluid" alt="">
+            </div>
+          </div>
+          <div class="col-sm-2 p-md-0">
+            <div class="border-start border-end px-4 py-5 text-center">
+              <img src="assets/images/brand_02.png" class="img-fluid" alt="">
+            </div>
+          </div>
+          <div class="col-sm-2 p-md-0">
+            <div class="border-start border-end px-4 py-5 text-center">
+              <img src="assets/images/brand_03.png" class="img-fluid" alt="">
+            </div>
+          </div>
+          <div class="col-sm-2 p-md-0">
+            <div class="border-start border-end px-4 py-5 text-center">
+              <img src="assets/images/brand_04.png" class="img-fluid" alt="">
+            </div>
+          </div>
+          <div class="col-sm-2 p-md-0">
+            <div class="border-start border-end px-4 py-5 text-center">
+              <img src="assets/images/brand_05.png" class="img-fluid" alt="">
+            </div>
+          </div>
+          <div class="col-sm-2 p-md-0">
+            <div class="border-start border-end px-4 py-5 text-center">
+              <img src="assets/images/brand_06.png" class="img-fluid" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div class="client">
+          <div class="mobile_client">
+            <img src="assets/images/brand_01.png" class="img-fluid ms-auto me-auto" alt="">
+          </div>
+          <div class="mobile_client">
+            <img src="assets/images/brand_02.png" class="img-fluid ms-auto me-auto" alt="">
+          </div>
+          <div class="mobile_client">
+            <img src="assets/images/brand_03.png" class="img-fluid ms-auto me-auto" alt="">
+          </div>
+          <div class="mobile_client">
+            <img src="assets/images/brand_04.png" class="img-fluid ms-auto me-auto" alt="">
+          </div>
+          <div class="mobile_client">
+            <img src="assets/images/brand_05.png" class="img-fluid ms-auto me-auto" alt="">
+          </div>
+          <div class="mobile_client">
+            <img src="assets/images/brand_06.png" class="img-fluid ms-auto me-auto" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="container mb-5">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-lg-6 col-md-6">
+            <div class="subscribe">
+              SUBSCRIBE NEWS LATTER
+            </div>
+          </div>
+          <div class="col-lg-5 col-md-6">
+            <form class="subscribe_form">
+              <input type="email" class="form-control" placeholder="Enter Your Mail" required >
+              <button type="submit" class="btn btn_1">Subscribe Now</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 mt-2 mb-3">
+            <h4 class="footer_heading">about  restaurant</h4>
+            <p class="footer_para">Lorem ipsum dolor sit consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
+            <div class="row align-items-center mt-5">
+              <div class="col-3 pe-0 me-2">
+                <div class="timig_clock">
+                  <img src="assets/images/t_hour.png" class="img-fluid"  alt="">
+                </div>
+              </div>
+              <div class="col-6 ps-0">
+                <div class="timig_clock_detail">
+                  <h5>OPENING HOURS</h5>
+                  <h6>Mon - Sat (8:00 - 6:00)</h6>
+                  <h6>Sunday - Closed</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mt-2 mb-3">
+            <h4 class="footer_heading">contact us</h4>
+            <div class="footer_contact">
+              <h4><a href="javascript:void(0);"><span>ADDRESS </span>: 8638 Amarica Stranfod Mailbon Star</a></h4>
+              <h4><a href="javascript:void(0);"><span>MAIL </span>: support@example.com</a></h4>
+              <h4><a href="javascript:void(0);"><span>PHONE </span>: +9 659459 49594</a></h4>
+              <h4><a href="javascript:void(0);"><span>TOLL FREE </span>: 1800 1800 180</a></h4>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-6 mt-2 mb-3">
+            <h4 class="footer_heading">links</h4>
+            <ul class="footer_links">
+              <li><a href="javascript:void(0);">Home</a></li>
+              <li><a href="javascript:void(0);">About</a></li>
+              <li><a href="javascript:void(0);">Shop</a></li>
+              <li><a href="javascript:void(0);">Blogs</a></li>
+              <li><a href="javascript:void(0);">Contact</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 mt-2 mb-3">
+            <h4 class="footer_heading">recent blogs</h4>
+            <div class="footer_blogs">
+              <div class="row align-items-center my-3">
+                <div class="col-4 pe-0">
+                  <div class="timig_clock">
+                    <a href="javascript:void(0);"><img src="assets/images/img_01.jpg" class="img-fluid"  alt=""></a>
+                  </div>
+                </div>
+                <div class="col-8 ps-0">
+                  <div class="footer_blogs_detail">
+                    <h5>Best Smell of Americano Coffee Trins</h5>
+                    <h6>DECEMBER 30 - 2021</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="row align-items-center my-3">
+                <div class="col-4 pe-0">
+                  <div class="timig_clock">
+                    <a href="javascript:void(0);"><img src="assets/images/img_02.jpg" class="img-fluid"  alt=""></a>
+                  </div>
+                </div>
+                <div class="col-8 ps-0">
+                  <div class="footer_blogs_detail">
+                    <h5>Best Smell of Americano Coffee Trins</h5>
+                    <h6>JANUARY 03 - 2021</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container footer_last">
+        <div class="row align-items-center">
+          <div class="col-sm-3">
+            <div class="footer_logo">
+              <img src="assets/images/logo_white.png" class="img-fluid" alt="">
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="footer_socail_icon">
+              <ul>
+                <li><a href="javascript:void(0);"><i class="fa-brands fa-facebook-f"></i></a></li>
+                <li><a href="javascript:void(0);"><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href="javascript:void(0);"><i class="fa-brands fa-youtube"></i></li>
+                <li><a href="javascript:void(0);"><i class="fa-brands fa-instagram"></i></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="footer_copyright">
+              Copy Right@ Restaurant 2023.Design By <a href="https://dmarketingpro.com/">dmarketingpro</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script><script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>

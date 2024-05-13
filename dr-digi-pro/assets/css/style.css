@@ -1,0 +1,871 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Nunito:wght@500;600;700;900&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-family: 'Nunito', sans-serif;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+.short_contact a {
+  font-size: 16px;
+}
+
+.short_contact h3 {
+  font-size: 22px;
+}
+
+.digi_form {
+  display: flex;
+  align-items: center;
+}
+
+.header .navbar-brand img {
+  width: 220px;
+}
+
+.header1 {
+  background-image: url("/assets/images/banner/bannnerr.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.header1 .navbar-toggler-icon {
+  background-image: url('/assets/images/download.svg');
+}
+
+.header1 .navbar-toggler {
+  border-color: #ffffff;
+  box-shadow: 0px 0px 8px 0px #ffffff;
+}
+
+.short_contact iframe {
+  width: 100%;
+  height: 300px;
+}
+
+.header .nav-link.active,
+.header .nav-link:hover {
+  color: #2baadf;
+}
+
+.header .nav-link {
+  color: rgb(253, 6, 18);
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: .8px;
+  text-transform: capitalize;
+}
+
+.digi_form a {
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: .8px;
+}
+
+.digi_search_btn {
+  background-color: #2baadf;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: #ffffff;
+  border-color: #2baadf;
+  margin-right: 20px;
+  border: 2px solid white;
+}
+
+.header .container {
+  max-width: 1260px;
+}
+
+.container_digi {
+  max-width: 1260px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.banner_content h1 {
+  font-size: 43px;
+  font-weight: 700;
+  line-height: 55px;
+}
+
+.digi_btn {
+  background: rgb(253, 6, 18);
+  color: white;
+  border-radius: 30px;
+  padding: 10px 20px;
+  text-transform: capitalize;
+  transition: all .3s ease;
+  border-color: #ffffff;
+}
+
+.digi_btn:hover {
+  background: #2baadf;
+  color: white;
+}
+
+.digi_btn1 {
+  background: #2baadf;
+  color: white;
+  border-radius: 30px;
+  padding: 10px 20px;
+  text-transform: capitalize;
+  transition: all .3s ease;
+}
+
+.digi_btn1:hover {
+  background: rgb(253, 6, 18);
+  color: white;
+}
+
+.container_digi {
+  height: 600px;
+  /* height: 100%; */
+  display: flex;
+  align-items: center;
+}
+
+.banner_digi {
+  width: 100%;
+}
+
+.banner_content p {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.digi_service_card {
+  height: 100%;
+}
+
+.digi_service_card_img {
+  width: 150px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #ffffff;
+  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+  margin-bottom: 30px;
+  position: relative;
+  z-index: 9;
+}
+
+.digi_service_card_img img {
+  padding: 30px;
+}
+
+.digi_service {
+  /* padding-top: 70px; */
+  padding-bottom: 70px;
+  background-color: rgb(253, 6, 18);
+  color: white;
+}
+
+.digi_service_card h4 {
+  margin-bottom: 20px;
+}
+
+.digi_heading {
+  font-size: 44px;
+  font-weight: 900;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+}
+
+.digi_heading1 {
+  font-size: 44px;
+  font-weight: 900;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+  color: rgb(253, 6, 18);
+}
+
+.digi_service_div {
+  position: relative;
+}
+
+.digi_service_div_img {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -42px;
+  z-index: 1;
+}
+
+.digivideo_section {
+  position: relative;
+  padding-bottom: 100px;
+}
+
+.digivideo_section_div {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  right: 0;
+  top: 10px;
+}
+
+.digi_center {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+p {
+  letter-spacing: 0.5px;
+}
+
+.digi_marketing_card {
+  position: relative;
+  padding: 20px;
+  padding-left: 100px;
+  border-radius: 10px;
+  transition: all .3s ease;
+}
+
+.digi_marketing_card:hover {
+  box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.1);
+}
+
+.digi_marketing_card_icon {
+  position: absolute;
+  background-color: rgb(253, 6, 18);
+  border-radius: 50%;
+  left: 20px;
+  top: 20px;
+}
+
+.digi_marketing_card h5 {
+  color: rgb(253, 6, 18);
+  font-weight: 900;
+  font-size: 24px;
+}
+
+.digipercent {
+  color: rgb(253, 6, 18);
+}
+
+.digipercent h5 {
+  font-weight: 900;
+  font-size: 22px;
+  line-height: 24px;
+}
+
+.digipercent span {
+  font-size: 28px;
+  line-height: 8px;
+}
+
+.digi_offer_card_icon {
+  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+  background-color: #2baadf;
+  transition: all .3s ease;
+}
+
+.digi_offer_card_h4 {
+  color: rgb(253, 6, 18);
+  font-size: 30px;
+  font-weight: 900;
+  transition: all .3s ease;
+}
+
+.digi_offer_card_icon img {
+  width: 80px;
+}
+
+.digi_offer_card {
+  border: 1px solid #f2f2f2;
+  border-radius: 5px;
+  transition: all .3s ease;
+}
+
+.digi_link {
+  border-top: 1px solid #f2f2f2;
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  color: rgb(253, 6, 18);
+  transition: all .3s ease;
+}
+
+.digi_offer_card_para {
+  color: #2baadf;
+  font-size: 18px;
+  transition: all .3s ease;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+.digi_offer_card:hover {
+  background-color: #2baadf;
+  box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.1);
+}
+
+.digi_offer_card:hover .digi_offer_card_icon {
+  background-color: rgb(253, 6, 18);
+}
+
+.digi_offer_card:hover .digi_offer_card_para,
+.digi_offer_card:hover .digi_offer_card_h4,
+.digi_offer_card:hover .digi_link {
+  color: #ffffff;
+}
+
+.testimonial_avatar img {
+  width: 80px;
+  margin-bottom: 30px;
+  transition: all .3s ease;
+}
+
+.digitesimonial h4 {
+  text-transform: uppercase;
+  font-weight: 900;
+  color: rgb(253, 6, 18);
+  font-size: 36px;
+}
+
+.digitesimonial p {
+  font-weight: 600;
+  color: #909496;
+  font-size: 24px;
+}
+
+.digitesimonial span {
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #2baadf;
+}
+
+.testimonial_avatar img:hover {
+  transform: scale(1.1);
+}
+
+.digitesimonial {
+  padding: 50px;
+}
+
+#digicarousel .carousel-control-next-icon,
+.carousel-control-prev-icon {
+  background-color: #2baadf;
+  border-radius: 50%;
+}
+
+#digicarousel .carousel-control-next,
+.carousel-control-prev {
+  width: 80%;
+  align-items: end;
+}
+
+#digicarousel .carousel-control-next-icon,
+.carousel-control-prev-icon {
+  width: 90px;
+  height: 40px;
+  border-radius: 50px;
+}
+
+.testimonial_section {
+  background-image: url("/assets/images/11.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.pricing_plan_card {
+  border: 1px solid #f2f2f2;
+}
+
+.pricing_plan_h3 {
+  color: rgb(253, 6, 18);
+  font-size: 36px;
+  font-weight: 900;
+}
+
+.pricing_plan_h4 {
+  color: rgb(253, 6, 18);
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.pricing_plan_h4 span {
+  color: #909496;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.pricing_plan_card ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.pricing_plan_card ul li {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.pricing_plan_card ul li img {
+  width: 18px;
+  margin-bottom: 4px;
+  margin-right: 8px;
+}
+
+.blog_card_div h3 {
+  color: rgb(253, 6, 18);
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.blog_card_div h5 {
+  color: rgb(253, 6, 18);
+  font-size: 26px;
+  font-weight: 900;
+}
+
+.blog_card_div p {
+  color: #909496;
+  font-size: 18px;
+
+}
+
+.blog_post_by {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid #909496;
+  padding: 10px 0px;
+
+}
+
+.blog_post_by img {
+  width: 40px;
+}
+
+.blog_post_by h6 {
+  color: rgb(253, 6, 18);
+  text-transform: capitalize;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.blog_card {
+  border-radius: 5px;
+  height: 100%;
+}
+
+.blog_card img {
+  border-radius: 5px;
+}
+
+.blog_card:hover {
+  box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.1);
+}
+
+.digi_contact_section {
+  background-color: #2baadf;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: white;
+  border-radius: 10px;
+}
+
+.contact_content h2 {
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.contact_content p {
+  font-size: 18px;
+  line-height: 33px;
+}
+
+.contact_form .form-control {
+  padding: 14px 20px;
+  border-radius: 50px;
+  border-color: #2baadf;
+  color: rgb(253, 6, 18);
+}
+
+.contact_form textarea.form-control {
+  border-radius: 20px;
+}
+
+.form_btn,
+.form_btn:hover {
+  width: 100%;
+  background-color: rgb(253, 6, 18);
+  padding: 14px 20px;
+  color: white;
+}
+
+.contact_form .form-control::placeholder {
+  color: #2baadf;
+}
+
+.contact_form_h2 {
+  font-size: 26px;
+  font-weight: 900;
+  color: white;
+  text-transform: uppercase;
+  border-bottom: 2px solid white;
+  margin-bottom: 30px;
+  padding-bottom: 15px;
+}
+
+.footer_logo {
+  width: 200px;
+  margin-bottom: 30px;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+.footer_contact ul li {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.footer_social_link ul {
+  display: flex;
+}
+
+.footer_social_link ul li {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(253, 6, 18);
+  color: white;
+  border-radius: 50%;
+}
+
+.footer_social_link ul li a {
+  font-size: 18px;
+  color: white;
+}
+
+.design_para {
+  color: #909496;
+}
+
+.footer {
+  background-color: #edecf0;
+  /* padding-bottom: 30px; */
+  position: relative;
+}
+
+.footer_col h4 {
+  font-size: 26px;
+  font-weight: 900;
+  color: rgb(253, 6, 18);
+}
+
+.footer_col ul li {
+  color: #909496;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  transition: all .3s ease;
+}
+
+.footer_col ul li p {
+  color: #909496;
+  letter-spacing: 1px;
+  line-height: 25px;
+}
+
+.footer_col ul li:hover {
+  transform: translateX(10px);
+}
+
+.digi_project_card {
+  /* position: relative; */
+  height: 392px;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px #00000029;
+}
+
+.digi_project_card img {
+  height: 100%;
+  width: 100%;
+  transition: all 2s ease;
+
+}
+
+.digi_project_card_div {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: rgb(253, 6, 18);
+  align-items: center;
+  justify-content: space-between;
+  transition: all .3s ease;
+  display: none;
+
+}
+
+.digi_chat {
+  width: 60px;
+  height: 60px;
+  background-color: #49E670;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+}
+
+
+.digi_chat a {
+  font-size: 39px;
+}
+
+.digi_upbtn {
+  width: 50px;
+  height: 50px;
+  background-color: #25D366;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+
+.digi_upbtn a {
+  font-size: 26px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.digi_project_card_div span {
+  text-transform: uppercase;
+  color: white;
+}
+
+.digi_project_card_div span:nth-child(2) {
+  text-transform: capitalize;
+  color: white;
+}
+
+.digi_project_card:hover .digi_project_card_div {
+  transform: translateY(-100px);
+  display: flex;
+  transition: all .3s ease;
+}
+
+.digi_project_card:hover img {
+  transform: scale(1.2);
+}
+
+.iframe_video_digi iframe {
+  width: 100%;
+  height: 465px;
+  /* box-shadow: 0px 0px 10px 0px #00000029; */
+}
+
+/*for mobile */
+@media (max-width: 767px) {
+  .bananer_sm_img {
+    display: none;
+  }
+
+  .banner_content h1 {
+    font-size: 22px;
+    line-height: 40px;
+  }
+
+  .digi_service {
+    padding-top: 0px;
+  }
+
+  .banner_content {
+    margin-top: 25px;
+  }
+
+  .banner_content p {
+    margin-top: 10px;
+    margin-bottom: 17px;
+    width: 340px;
+  }
+
+  .container_digi {
+    height: 410px;
+    align-items: start;
+  }
+
+  .digi_btn {
+    border-color: #ffffff;
+  }
+
+  .digi_service_div_img {
+    display: none;
+  }
+
+  .digi_service_card:hover {
+    background-color: #2baadf;
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  .iframe_video_digi iframe {
+    width: 100%;
+    height: 225px;
+  }
+
+  .digi_center_div .digi_heading1 {
+    text-align: center;
+  }
+
+  #digicarousel .carousel-control-next,
+  .carousel-control-prev {
+    width: 50%;
+  }
+
+  .digi_contact_section {
+    padding: 20px;
+  }
+
+  .digi_heading1 {
+    font-size: 28px;
+  }
+
+  .digi_heading {
+    font-size: 28px;
+  }
+
+  .digi_offer_card_h4 {
+    font-size: 20px;
+  }
+
+
+
+
+
+
+
+}
+
+/*for mobile and tablet */
+@media (max-width: 768px) {
+  .digi_form a {
+    color: rgb(253, 6, 18);
+  }
+
+  .digi_search_btn {
+    display: none;
+  }
+
+  .header .nav-link {
+    padding-left: 0 !important;
+  }
+
+  .digi_center_div .digi_heading {
+    text-align: center;
+  }
+
+  .digi_center_div p {
+    text-align: justify;
+  }
+
+  .digi_service_card p {
+    text-align: justify;
+  }
+
+
+
+
+
+
+
+
+
+}
+
+/*for tablet*/
+@media (min-width: 768px) and (max-width: 768px) {
+  .banner_content h1 {
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 30px;
+  }
+
+  .container_digi {
+    height: 380px;
+  }
+
+  .digi_service_div_img {
+    top: 16px;
+  }
+
+  .iframe_video_digi iframe {
+    height: 288px;
+  }
+
+  .digi_heading1 {
+    font-size: 25px;
+  }
+
+  .digi_project_card {
+    height: 230px;
+  }
+
+  .digi_project_card_div span:nth-child(2) {
+    display: none;
+  }
+
+  .digi_project_card_div {
+    padding: 10px;
+  }
+
+  .pricing_plan_h4 span {
+    font-size: 16px;
+  }
+
+  .pricing_plan_h4 {
+    font-size: 26px;
+  }
+
+
+
+
+}

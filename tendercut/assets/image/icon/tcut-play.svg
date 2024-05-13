@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>btn-chevron@1x</title>
+    <g id="Primary_Pages" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home-Section02" transform="translate(-179.000000, -120.000000)" stroke="#CC1C2D">
+            <g id="Group-18" transform="translate(15.000000, 20.000000)">
+                <g id="Group-58" transform="translate(154.000000, 0.000000)">
+                    <g id="Group" transform="translate(10.000000, 100.000000)">
+                        <circle id="Oval" fill="#FFFFFF" cx="15" cy="15" r="14.5"></circle>
+                        <g id="icons8-more_than" transform="translate(12.396808, 8.305899)" fill="#CC1C2D" fill-rule="nonzero">
+                            <polygon id="Path" points="0.634191176 0 0 0.634191176 6.74172794 7.37591912 0 14.1176471 0.634191176 14.7518382 7.69301471 7.69301471 7.99632353 7.37591912 7.69301471 7.05882353"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

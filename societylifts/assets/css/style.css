@@ -1,0 +1,459 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;500;600;700;800;900&display=swap');
+
+body {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+.sl_nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.sl_logo img.img-fluid {
+  width: 240px;
+}
+
+.sl_nav_link ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sl_nav_link ul li a {
+  font-size: 14px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.bg_header_banner {
+  /* background-image: url("/assets/images/banner/dda-bg.png"); */
+  background-image: url("/assets/images/banner/0ad9399e7c.jfif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: #00000029;
+  background-blend-mode: multiply;
+}
+
+.sl_banner {
+  max-width: 650px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #ffffff;
+  height: 550px;
+}
+
+.sl_banner h1 {
+  font-size: 70px;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.sl_banner h1 span {
+  font-weight: 300;
+  font-size: 70px;
+}
+
+.sl_leading_lifts_content_container h2 {
+  font-family: "Nunito Sans", sans-serif;
+  line-height: 1.25;
+  font-size: 50px;
+  position: relative;
+}
+
+.sl_leading_lifts_content_container h2 span {
+  font-weight: 300;
+}
+
+.sl_leading_lifts_content_container p {
+  line-height: 1.75em;
+  color: #999;
+}
+
+.sl_leading_lifts_content {
+  padding-top: 200px;
+  padding-bottom: 100px;
+}
+
+.sl_leading_lifts_content_container h2::before {
+  content: "";
+  width: 80px;
+  height: 1px;
+  background-color: #000000;
+  position: absolute;
+  left: -100px;
+  top: 30px;
+}
+
+.sl_company {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.sl_company_div_content h3 {
+  font-size: 40px;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 300;
+  line-height: 1.25;
+  margin-bottom: 20px;
+}
+
+.sl_video_lifts {
+  width: 100%;
+  height: 300px;
+}
+
+.sl_company_div_content p {
+  font-size: 1.25rem;
+  font-weight: 300;
+  line-height: 1.75em;
+  color: #999;
+}
+
+.sl_company_card {
+  border: 1px solid #e5e5e5;
+  padding: 30px;
+  border-radius: 5px;
+  transition: all .3s ease;
+  background-color: #fff;
+  text-align: center;
+}
+
+.sl_company_card_icon {
+  color: #3eb0f7;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.sl_company_card h5 {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 500;
+  line-height: 1.25;
+  font-size: 28px;
+  color: #151515;
+}
+
+.sl_company_card p {
+  line-height: 1.75em;
+  color: #999;
+  margin-bottom: 0;
+}
+
+.sl_company_card:hover {
+  transform: translate(0, -10px);
+  box-shadow: 0px 10px 15px 0 rgba(0, 0, 0, 0.1);
+}
+
+.sl_company_image {
+  text-align: center;
+}
+
+.sl_reliable {
+  background-color: #f5f5f5;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.sl_reliable_div h3 {
+  font-family: "Nunito Sans", sans-serif;
+  line-height: 1.25;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.sl_reliable_div h3 span {
+  font-weight: 300;
+
+}
+
+.sl_reliable_div p {
+  line-height: 1.75em;
+  color: #999;
+  text-align: center;
+}
+
+.sl_button {
+  color: #fff;
+  background-color: #3eb0f7;
+  border-color: #3eb0f7;
+  padding: 16px 30px;
+  border-radius: 44px;
+  padding-left: 80px;
+  text-transform: capitalize;
+  font-weight: 500;
+  letter-spacing: .8px;
+  position: relative;
+}
+
+.sl_button:hover {
+  color: #fff;
+  background-color: #3eb0f7;
+  border-color: #3eb0f7;
+}
+
+.sl_call {
+  position: absolute;
+  padding: 20px;
+  background: #39a3e5;
+  border-radius: 50%;
+  left: 0;
+  top: 0px;
+}
+
+.sl_video {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.sl_video .sl_reliable_div .sl_video_span {
+  color: #3491cb;
+  font-size: 0.875rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.sl_video .sl_reliable_div h3 {
+  text-align: left;
+}
+
+.sl_video .sl_reliable_div p {
+  text-align: left;
+}
+
+.sl_contact {
+  /* background-image: url('/assets/images/elevator-repair-service-delhi.jpg'); */
+  background-image: url('/assets/images/d00e1f9624.jfif');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: #00000073;
+  background-blend-mode: multiply;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.sl_contact .sl_reliable_div {
+  text-align: center;
+  color: #ffffff;
+}
+
+.sl_video_span1 {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+}
+
+.sl_contact .sl_reliable_div h3 {
+  font-size: 55px;
+}
+
+.sl_button1 {
+  color: #000000;
+  background-color: #ffffff;
+  border-color: #ffffff;
+  padding: 16px 30px;
+  border-radius: 44px;
+  padding-left: 80px;
+  text-transform: capitalize;
+  font-weight: 500;
+  letter-spacing: .8px;
+  position: relative;
+}
+
+.sl_button1:hover {
+  color: #000000;
+  background-color: #ffffff;
+  border-color: #ffffff;
+}
+
+.sl_call1 {
+  position: absolute;
+  padding: 20px;
+  background: #f5f5f5;
+  border-radius: 50%;
+  left: 0;
+  top: 0px;
+}
+
+.sl_choose_us {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #f5f5f5;
+}
+
+.sl_choose_us_heading {
+  font-size: 40px;
+  line-height: 1.25;
+  color: #151515;
+  font-weight: 300;
+  font-family: "Nunito Sans", sans-serif;
+  margin-bottom: 30px;
+}
+
+.sl_choose_us_card {
+  height: 100%;
+}
+
+.sl_choose_us_heading b {
+  font-weight: 700;
+}
+
+.sl_choose_us_card_title {
+  font-size: 20px;
+  padding-left: 70px;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.sl_choose_us_card_icon {
+  position: absolute;
+  font-size: 35px;
+  left: 0;
+  top: 0;
+  color: #4872b7;
+}
+
+.sl_choose_us_card p {
+  line-height: 1.75em;
+  color: #999;
+}
+
+.sl_para_text {
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+}
+
+.sl_para_text p {
+  margin-bottom: 0;
+  font-size: 22px;
+  font-weight: 300;
+}
+
+.sl_maps iframe {
+  width: 100%;
+  height: 50vh;
+}
+
+.footer {
+  background-color: #151515;
+}
+
+.sl_top_footer {
+  padding-top: 100px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #2d2d2d;
+  color: #ffffff;
+}
+
+.sl_bottom_footer {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #ffffff;
+}
+
+.sl_enquiry_form .form-control {
+  border-radius: 0;
+  border: solid 1px #dadada;
+  background-color: #fff;
+  color: #333;
+  height: 55px;
+  margin: 20px 0px;
+  font-size: 16px;
+}
+
+.sl_submit,
+.sl_submit:hover {
+  width: 100%;
+  background-color: #3eb0f7;
+  color: white;
+  font-size: 16px !important;
+  padding: 16px 30px;
+  border: none;
+  margin: 0;
+  -webkit-transition: all .8s ease;
+  transition: all .8s ease;
+  margin-bottom: 25px;
+}
+
+
+/*for mobile */
+@media (max-width: 767px) {
+  .footer .d-flex.align-items-center.justify-content-between {
+    display: block !important;
+    text-align: center;
+  }
+
+  .sl_logo img.img-fluid {
+    width: 150px;
+  }
+
+  .footer_logo {
+    margin-bottom: 20px;
+  }
+
+  .sl_top_footer {
+    text-align: center;
+  }
+
+  .sl_para_text p {
+    text-align: center;
+  }
+
+  .sl_banner h1 {
+    font-size: 50px;
+  }
+
+  .sl_banner h1 span {
+    font-size: 50px;
+  }
+
+  .bg_header_banner {
+    background-color: #00000075;
+  }
+
+
+  .sl_video .sl_reliable_div .text-start.mt-5 {
+    text-align: center !important;
+  }
+}
+
+/*for mobile and tablet */
+@media (max-width: 768px) {
+  .sl_choose_us_card_icon {
+    top: -7px;
+  }
+
+  .sl_leading_lifts_content {
+    padding-top: 100px;
+  }
+
+  .sl_company {
+    padding-bottom: 0;
+  }
+}
+
+/*for tablet*/
+@media (min-width: 768px) and (max-width: 768px) {
+  .sl_maps iframe {
+    height: 30vh;
+  }
+}
