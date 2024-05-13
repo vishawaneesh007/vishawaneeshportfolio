@@ -1,0 +1,307 @@
+.top_header{
+    background-color: #1a1a1a;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.header_logo img{
+    width: 120px;
+}
+.header_link ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+.mobile_logo{
+    display: none;
+}
+.header_link ul li{
+    font-size: 10px;
+    margin-left: 10px;
+    font-weight: 900; 
+}
+.header_link ul li a{
+    color: #ffffff;
+    text-decoration-color: #eb008b;
+}
+.top_header_menubar{
+    background-color: #000;
+}
+.top_header_menubar .nav-link{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+.top_header_menubar .navbar-expand-lg .navbar-nav { 
+    width: 100%;
+    justify-content: space-between;
+}
+.header{
+    background-color: #000;
+    padding-bottom: 40px;
+}
+.banner .carousel-indicators{
+    bottom: -50px;
+}
+.banner .carousel-indicators [data-bs-target]{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.banner .carousel-indicators [data-bs-target].active{
+    background-color: #eb008b;
+}
+.services_salon{
+    background-color: #e2e2e2;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.services_salon{
+    background-color: #e2e2e2;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.services_salon_heading{
+    font-size: 38px;
+    line-height: 80px;
+    font-weight: 800;
+    margin-bottom: 30px;
+    position: relative;
+}
+.services_salon_heading::after{
+    content: "";
+    width: 35px;
+    height: 10px;
+    background-color: #eb008b;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
+.service_salon_card{
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+}
+.service_salon_content{
+    position: absolute;
+    background-color: #fff;
+    z-index: 99;
+    bottom: 0;
+    left: 0;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.service_salon_content h5{
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0;
+    color: #eb008b;
+}
+.service_salon_img img{
+    transition: all 1s ease;
+}
+.service_salon_card:hover .service_salon_img img{
+    transform: scale(1.5);
+}
+.trending{
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+.trending_content h3{
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 800;
+    margin-bottom: 40px ;
+}
+.trending_content p{
+    font-size: 16px;
+    line-height: 27px;
+    font-weight: 400;
+    margin-bottom: 22px ;
+}
+.salon_btn{
+    font-size: 16px;
+    text-transform: capitalize;
+    background-color: #eb008b;
+    color: #fff;
+    padding: 11px 15px ;
+    border-radius: 0;
+    font-weight: 600;
+    transition: all .3s ease;
+}
+.salon_btn:hover{
+    background-color: #fff;
+    color: #eb008b;
+    border-color: #eb008b;
+    transform: scale(1.03);
+}
+.trending_img{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.term_salon{
+display: block;
+font-size: 18px;
+line-height: 27px;
+text-decoration: none;
+color: #1a1a1a;
+transition: all .8s ease;
+}
+.term_salon:hover{
+color: #eb008b;
+}
+.footer_top{
+    background-color: #000;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+.footer_logo{
+    border-top: 1px solid #373737;
+    border-bottom: 1px solid #373737;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.footer_logo img{
+    width: 120px;
+}
+.footer_top_link ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer_top_link ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 800;
+    text-transform: capitalize;
+    transition: all .3s ease;
+}
+.footer_top_link ul li a:hover{
+    color: #eb008b;
+}
+.footer_top_social_link ul{
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+.footer_top_social_link ul li{
+    width: 40px;
+    height: 40px;
+    background-color: #939393;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #000;
+}
+.footer_top_social_link ul li a{
+    color: #000;
+    transition: all .3s ease;
+}
+.footer_top_social_link ul li a:hover{
+    color: #eb008b;
+}
+.footer_top_social_link span{
+    color: #ffffff;
+}
+.footer_top_implink a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 800;
+    text-transform: capitalize;
+    transition: all .3s ease;
+}
+.footer_top_implink a:hover{
+    color: #eb008b;
+}
+.footer_top_implink ul{
+    list-style: none;
+    margin: 0;  
+    padding-left: 15px;
+}
+.footer_top_implink ul li{
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+.footer_top_implink ul a{
+    font-weight: normal;
+}
+.footer_copyright{
+    font-size: 12px;
+    font-weight: normal;
+}
+.footer_bottom{
+    background-color: #fff;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.footer_imp_link ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+}
+.footer_imp_link ul li{
+ margin-left: 10px; 
+}
+.footer_imp_link ul li a{
+    font-size: 12px;
+    font-weight: normal;
+    color: #000;
+    transition: all .3s ease;
+    text-decoration: none;
+}
+.footer_imp_link ul li a img{
+    width: 50px;
+}
+.footer_imp_link ul li a:hover{
+    font-size: 12px;
+    font-weight: normal;
+    color: #eb008b;
+}
+
+/*for mobile */
+@media (max-width: 767px) {
+    .services_salon_heading {
+        line-height: 45px;
+    }
+    .services_salon_heading::after{
+        bottom: -16px;
+    }
+}
+/*for mobile and tablet having same style*/
+@media (max-width: 768px){
+    .top_header_menubar .navbar-toggler-icon{
+        background-image: url('/assets/image/menu.png');
+    }
+    .top_header_menubar .navbar-toggler{
+        border-color: #ffffff;
+    }
+    .mobile_logo{
+        display: block;
+        width: 120px;
+    }
+    .top_header{
+        display: none;
+    }
+}
+/*for tablet*/
+@media (min-width: 768px) and (max-width: 768px) {
+
+}
