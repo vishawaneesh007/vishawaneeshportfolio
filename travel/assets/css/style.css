@@ -16,7 +16,7 @@ a:hover {
 }
 
 .header {
-  background-image: url('/assets/images/banner/image.jfif');
+  background-image: url('/travel/assets/images/banner/image.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   color: #ffffff;
@@ -232,7 +232,7 @@ a:hover {
 
 
 .travel_pay {
-  background-image: url("/assets/images/home/a.png");
+  background-image: url("/travel/assets/images/home/a.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -271,7 +271,7 @@ a:hover {
 }
 
 .header .navbar-toggler-icon {
-  background-image: url('/assets/images/menu_bar/menu.png');
+  background-image: url('/travel/assets/images/menu_bar/menu.png');
 }
 
 .header .navbar-toggler {
@@ -364,7 +364,7 @@ a:hover {
 
 
 .travel_milestone {
-  background-image: url('/assets/images/home/2.jfif');
+  background-image: url('/travel/assets/images/home/2.jfif');
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 60px;
@@ -392,7 +392,7 @@ a:hover {
 
 
 .travel_testimonial {
-  background-image: url('/assets/images/home/3.jfif');
+  background-image: url('/travel/assets/images/home/3.jfif');
   background-size: cover;
   background-repeat: no-repeat;
   padding-top: 80px;

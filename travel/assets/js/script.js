@@ -57,3 +57,16 @@ $('.travel_media_container').slick({
 //     header.classList.remove("sticky");
 //   }
 // }
+
+
+// const date = new Date();
+// const yyyy = date.getFullYear();
+// const mm = date.getMonth() + 1;
+// const dd = date.getDate();
+// // document.querySelector('#date').value = `${mm}-${dd}-${yyyy}`
+
+
+// console.log(document.querySelector('#date').value);
+
+// // console.log(`${yyyy}-${mm}-${dd}`);
+
